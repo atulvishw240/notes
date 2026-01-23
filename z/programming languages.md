@@ -1,5 +1,5 @@
 
-- [[ML Part-A]]
+- [[ml part-a]]
 
 ---
 

@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "95115310c0a0f297",
+        "id": "b68720913e8b6d74",
         "type": "tabs",
         "children": [
           {
-            "id": "9f7a371332d95a98",
+            "id": "06bd1c0cea52d85d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/Function Bindings.md",
+                "file": "introduction to operating systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Function Bindings"
-            }
-          },
-          {
-            "id": "78b4cef5f8bd9584",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z/Pairs and Tuples.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pairs and Tuples"
+              "title": "introduction to operating systems"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 397.5,
+    "collapsed": true
   },
   "right": {
     "id": "6f372084186a8152",
@@ -171,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "z/Pairs and Tuples.md",
+                "file": "introduction to operating systems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,7 +185,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Pairs and Tuples"
+              "title": "Graph of introduction to operating systems"
             }
           },
           {
@@ -232,29 +218,37 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "78b4cef5f8bd9584",
+  "active": "06bd1c0cea52d85d",
   "lastOpenFiles": [
-    "z/ML Part-A.md",
-    "z/Function Bindings.md",
-    "z/Pairs and Tuples.md",
-    "z/Programming Languages.md",
+    "attachments/user-kernel-mode.png",
+    "introduction to operating systems.md",
+    "attachments/batch-processing.png",
+    "Operating System.md",
     "notes.md",
+    "z/variable bindings and expressions.md",
+    "z/the odin project.md",
+    "z/shadowing.md",
+    "z/programming languages.md",
+    "z/pairs and tuples.md",
+    "z/motivation and mindset.md",
+    "z/ml part-a.md",
+    "z/lists.md",
+    "z/let expressions.md",
+    "z/introduction to web development.md",
+    "z/how does the web work.md",
+    "z/function bindings.md",
+    "z/foundations.md",
+    "z/benefits of no mutation.md",
     "Unit - 3 Cyber Security.md",
     "ewi.md",
-    "z/Shadowing.md",
-    "z/Variable bindings and expressions.md",
-    "z/Foundations.md",
     "z",
-    "z/The Odin Project.md",
     "Raymond Gan Advices.md",
-    "z/How does the web work.md",
     "Java.md",
     "Computer Basics.md",
-    "z/Motivation and Mindset.md",
-    "z/Introduction to Web Development.md",
     "attachments"
   ]
 }
