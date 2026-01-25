@@ -5,5 +5,6 @@
 - [[pairs and tuples]]
 - [[lists]]
 - [[let expressions]]
+- [[options]]
 - [[benefits of no mutation]]
-- 
+- [[pieces of a language]]

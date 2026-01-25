@@ -49,3 +49,6 @@ When you change a function, you have to check all the uses of that function to m
 
 ## Let and Efficiency
 
+Computing `bad_max` twice is not efficient.
+![[let-and-efficiency.png]]
+

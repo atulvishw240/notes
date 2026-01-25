@@ -1,0 +1,96 @@
+
+- [ ] Introduction
+	- [ ] How does the internet work
+	- [ ] What is HTTP
+	- [ ] What is Domain Name
+	- [ ] What is hosting
+	- [ ] DND and how it works
+	- [ ] Browsers and how they work
+- [ ] Frontend Basics
+	- [ ] HTML
+	- [ ] CSS
+	- [ ] JavaScript (learn anytime)
+- [ ] Pick a Backend Language
+	- [ ] Java
+- [ ] Git
+- [ ] Relational Databases
+	- [ ] PostgreSQL
+	- [ ] Migrations
+	- [ ] N+1 Problem
+- [ ] Learn about APIs
+	- [ ] REST
+	- [ ] JSON APIs
+	- [ ] SOAP (learn anytime)
+	- [ ] gRPC (learn anytime)
+	- [ ] GraphQL (learn anytime)
+	- [ ] Open API Specs (learn anytime)
+	- [ ] JWT
+	- [ ] OAuth
+	- [ ] Basic Authentication
+	- [ ] Token Authentication
+	- [ ] Cookie Based Auth
+	- [ ] OpenID (learn anytime)
+	- [ ] SAML (learn anytime)
+- [ ] Hashing Algorithms
+	- [ ] MD5
+	- [ ] SHA
+	- [ ] scrypt
+	- [ ] bcrypt
+- [ ] API Security Best Practices
+	- [ ] HTTPS
+	- [ ] OWASP Risks
+	- [ ] CORS
+	- [ ] SSL/TLS
+	- [ ] CSP
+	- [ ] Server Security
+	- [ ] API Security Best Practices
+- [ ] Caching
+	- [ ] Redis
+	- [ ] HTTP Caching
+- [ ] Learn about Web Servers
+	- [ ] Nginx
+- [ ] More about Databases
+	- [ ] Transactions
+	- [ ] ACID
+	- [ ] Normalization
+	- [ ] Failure Modes
+	- [ ] Profiling Performance
+- [ ] Testing
+- [ ] Docker
+- [ ] Kubernetes
+- [ ] Message Brokers
+	- [ ] Kafka
+- [ ] CI/CD
+- [ ] Search Engines
+	- [ ] Elasticsearch
+- [ ] System Design
+- [ ] Design and Architecture
+- [ ] Architectural Patterns
+	- [ ] Monolith
+	- [ ] Microservices
+	- [ ] SOA
+	- [ ] Serverless
+	- [ ] Service Mesh
+	- [ ] Twelve Factor Apps
+- [ ] Real Time Data
+	- [ ] Server Sent Events
+	- [ ] WebSockets
+	- [ ] Long/Short Polling
+- [ ] Scaling Databases
+	- [ ] Database Indexes
+	- [ ] Data Replication (learn anytime)
+	- [ ] Sharding Strategies (learn anytime)
+	- [ ] CAP Theorem (learn anytime)
+- [ ] NoSQL Databases
+	- [ ] Basic Operational Skills
+- [ ] Building For Scale
+	- [ ] Mitigation Strategies
+		- [ ] Graceful Degradation
+		- [ ] Throttling
+		- [ ] Backpressure
+		- [ ] Loadshifting
+		- [ ] Circuit Breaker
+	- [ ] Observability
+		- [ ] Instrumentation
+		- [ ] Monitoring
+		- [ ] Telemetry

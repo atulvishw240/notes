@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "introduction to operating systems.md",
+                "file": "backend roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "introduction to operating systems"
+              "title": "backend roadmap"
             }
           }
         ]
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "introduction to operating systems.md",
+                "file": "backend roadmap.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -180,12 +180,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7132754721991965,
+                  "scale": 0.12935389495854044,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of introduction to operating systems"
+              "title": "Graph of backend roadmap"
             }
           },
           {
@@ -224,20 +224,24 @@
   },
   "active": "06bd1c0cea52d85d",
   "lastOpenFiles": [
-    "attachments/user-kernel-mode.png",
-    "introduction to operating systems.md",
-    "attachments/batch-processing.png",
-    "Operating System.md",
     "notes.md",
-    "z/variable bindings and expressions.md",
-    "z/the odin project.md",
+    "backend roadmap.md",
+    "z/introduction to operating systems.md",
+    "z/options.md",
+    "z/ml.md",
+    "z/pieces of a language.md",
     "z/shadowing.md",
+    "z/variable bindings and expressions.md",
+    "z/let expressions.md",
+    "attachments/let-and-efficiency.png",
     "z/programming languages.md",
+    "attachments/user-kernel-mode.png",
+    "attachments/batch-processing.png",
+    "z/Operating System.md",
+    "z/the odin project.md",
     "z/pairs and tuples.md",
     "z/motivation and mindset.md",
-    "z/ml part-a.md",
     "z/lists.md",
-    "z/let expressions.md",
     "z/introduction to web development.md",
     "z/how does the web work.md",
     "z/function bindings.md",
