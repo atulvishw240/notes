@@ -13,4 +13,7 @@
 
  - [[building compound types]]
  - [[records]]
+ - [[tuples as syntactic sugar]]
+ - [[datatype bindings]]
+ - [[case expressions]]
  - 
