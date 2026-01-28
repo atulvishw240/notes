@@ -16,4 +16,8 @@
  - [[tuples as syntactic sugar]]
  - [[datatype bindings]]
  - [[case expressions]]
+ - [[useful types]]
+ - [[another expression example]]
+ - [[type synonyms]]
+ - [[lists and options are datatypes]]
  - 
