@@ -25,7 +25,7 @@ Just like with other data structures, we need a way to *build* list and *access*
 
 ## Special case
 
-- `[]` has type `a' list` where a' can be any type, which is good as it allows us to cons anything on an empty list like:
+- `[]` has type `a' list` where a' can be any type, which is good as it allows us to cons anything on an empty list (**Parametric polymorphism**) like:
 
 ```sml
 (3,4)::[];
