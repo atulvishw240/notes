@@ -2,5 +2,7 @@
 - [[the odin project]]
 - [[programming languages]]
 - [[Operating System]]
+- [[DSA]]
 - [[backend roadmap]]
+- [[poodr]]
 - 

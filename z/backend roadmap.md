@@ -1,0 +1,143 @@
+
+- [ ] Introduction
+	- [ ] How does the internet work
+	- [ ] What is HTTP
+	- [ ] What is Domain Name
+	- [ ] What is hosting
+	- [ ] DND and how it works
+	- [ ] Browsers and how they work
+- [ ] Frontend Basics
+	- [ ] HTML
+	- [ ] CSS
+	- [ ] JavaScript (learn anytime)
+- [ ] Pick a Backend Language
+	- [ ] Java
+- [ ] Git
+- [ ] Relational Databases
+	- [ ] PostgreSQL
+	- [ ] Migrations
+	- [ ] N+1 Problem
+- [ ] Learn about APIs
+	- [ ] REST
+	- [ ] JSON APIs
+	- [ ] SOAP (learn anytime)
+	- [ ] gRPC (learn anytime)
+	- [ ] GraphQL (learn anytime)
+	- [ ] Open API Specs (learn anytime)
+	- [ ] JWT
+	- [ ] OAuth
+	- [ ] Basic Authentication
+	- [ ] Token Authentication
+	- [ ] Cookie Based Auth
+	- [ ] OpenID (learn anytime)
+	- [ ] SAML (learn anytime)
+- [ ] Hashing Algorithms
+	- [ ] MD5
+	- [ ] SHA
+	- [ ] scrypt
+	- [ ] bcrypt
+- [ ] API Security Best Practices
+	- [ ] HTTPS
+	- [ ] OWASP Risks
+	- [ ] CORS
+	- [ ] SSL/TLS
+	- [ ] CSP
+	- [ ] Server Security
+	- [ ] API Security Best Practices
+- [ ] Caching
+	- [ ] Redis
+	- [ ] HTTP Caching
+- [ ] Learn about Web Servers
+	- [ ] Nginx
+- [ ] More about Databases
+	- [ ] Transactions
+	- [ ] ACID
+	- [ ] Normalization
+	- [ ] Failure Modes
+	- [ ] Profiling Performance
+- [ ] Testing
+- [ ] Docker
+- [ ] Kubernetes
+- [ ] Message Brokers
+	- [ ] Kafka
+- [ ] CI/CD
+- [ ] Search Engines
+	- [ ] Elasticsearch
+- [ ] System Design
+- [ ] Design and Architecture
+- [ ] Architectural Patterns
+	- [ ] Monolith
+	- [ ] Microservices
+	- [ ] SOA
+	- [ ] Serverless
+	- [ ] Service Mesh
+	- [ ] Twelve Factor Apps
+- [ ] Real Time Data
+	- [ ] Server Sent Events
+	- [ ] WebSockets
+	- [ ] Long/Short Polling
+- [ ] Scaling Databases
+	- [ ] Database Indexes
+	- [ ] Data Replication (learn anytime)
+	- [ ] Sharding Strategies (learn anytime)
+	- [ ] CAP Theorem (learn anytime)
+- [ ] NoSQL Databases
+	- [ ] Basic Operational Skills
+- [ ] Building For Scale
+	- [ ] Mitigation Strategies
+		- [ ] Graceful Degradation
+		- [ ] Throttling
+		- [ ] Backpressure
+		- [ ] Loadshifting
+		- [ ] Circuit Breaker
+	- [ ] Observability
+		- [ ] Instrumentation
+		- [ ] Monitoring
+		- [ ] Telemetry
+
+---
+
+## Responsibilities
+
+- Develop features and improvements to the GitLab product in a secure, well-tested, and performant way.
+- Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, etc.) to maintain a high bar for quality in a fast-paced, iterative environment.
+- Advocate for improvements to product quality, security, and performance.
+- Solve technical problems of moderate scope and complexity.
+- Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
+- Recognize impediments to our efficiency as a team (“technical debt”), propose and implement solutions.
+- Represent GitLab and its values in public communication around specific projects and community contributions.
+- Ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](https://handbook.gitlab.com/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+
+
+## Requirements
+
+- Ability to use GitLab.
+- Significant professional experience with Ruby on Rails or language required by the specialty.
+- Professional experience with any other technologies that may be required by the specialty.
+- Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment.
+- Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose thorough iterative solutions.
+- Experience with performance and optimization problems and a demonstrated ability to both diagnose and prevent these problems.
+- Comfort working in a highly agile, intensely iterative software development process.
+- Demonstrated ability to onboard and integrate with an organization long-term.
+- Positive and solution-oriented mindset.
+- Effective communication skills: Regularly achieve consensus with peers, and clear status updates.
+- An inclination towards communication, inclusion, and visibility.
+- Experience owning a project from concept to production, including proposal, discussion, and execution.
+- Self-motivated and self-managing, with excellent organizational skills.
+- Demonstrated ability to work closely with other parts of the organization.
+- Share our values, and work in accordance with those values.
+- Ability to thrive in a fully remote organization.
+
+## Nice-to-haves
+
+- Experience in a peak performance organization, preferably a tech startup
+- Experience with the GitLab product as a user or contributor
+- Product company experience
+- Experience working with a remote team
+- Enterprise software company experience
+- Developer platform/tool industry experience
+- Experience working with a global or otherwise multicultural team
+- Computer science education or equivalent experience
+- Passionate about/experienced with open source and developer tools
+

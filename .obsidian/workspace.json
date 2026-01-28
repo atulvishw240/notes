@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend roadmap.md",
+                "file": "notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "backend roadmap"
+              "title": "notes"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6f372084186a8152",
@@ -208,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.5
+    "width": 220.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,8 +224,13 @@
   },
   "active": "06bd1c0cea52d85d",
   "lastOpenFiles": [
+    "z/DSA.md",
     "notes.md",
-    "backend roadmap.md",
+    "z/backend roadmap.md",
+    "z/chapter 1 - object-oriented design.md",
+    "z/poodr.md",
+    "notes.sync-conflict-20260128-121956-A4EMXBX.md",
+    "z/Array.md",
     "z/introduction to operating systems.md",
     "z/options.md",
     "z/ml.md",
@@ -248,11 +253,7 @@
     "z/foundations.md",
     "z/benefits of no mutation.md",
     "Unit - 3 Cyber Security.md",
-    "ewi.md",
     "z",
-    "Raymond Gan Advices.md",
-    "Java.md",
-    "Computer Basics.md",
     "attachments"
   ]
 }

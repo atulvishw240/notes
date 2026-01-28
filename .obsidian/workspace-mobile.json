@@ -11,10 +11,14 @@
             "id": "74b895b4ef49d88e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "chapter 1 - object-oriented design.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "chapter 1 - object-oriented design"
             }
           }
         ]
@@ -164,9 +168,20 @@
   },
   "active": "74b895b4ef49d88e",
   "lastOpenFiles": [
+    "notes.sync-conflict-20260128-121956-A4EMXBX.md",
+    "backend roadmap.sync-conflict-20260128-121955-M6634Z3.md",
+    "DSA.md",
+    "z/backend roadmap.md",
+    "Array.md",
+    "poodr.md",
+    "chapter 1 - object-oriented design.md",
+    "poodr - intro.md",
+    "notes.md",
+    "z/programming languages.md",
+    "z/the odin project.md",
+    "backend roadmap.md",
     "ML Part-A.md",
     "Variable bindings and expressions.md",
-    "notes.md",
     "Programming Languages.md",
     "kaisa hai bhai.md",
     "Function Bindings.md",
