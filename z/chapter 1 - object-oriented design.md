@@ -7,7 +7,7 @@ But change is unavoidable.
 
 ## Why Change is Hard
 
-Object Oriented applications are made up of parts that interact to produce the behavior of the whole. The parts are *objects*; interaction s are embodied in the *messages* that pass between them. Getting the right message to the correct target object requires that the sender of the message know things about the receiver. This knowledge creates dependencies between the two, and these dependencies stand in the way of change.
+Object Oriented applications are made up of parts that interact to produce the behavior of the whole. The parts are *objects*; interactions are embodied in the *messages* that pass between them. Getting the right message to the correct target object requires that the sender of the message know things about the receiver. This knowledge creates dependencies between the two, and these dependencies stand in the way of change.
 
 >Object-oriented design is about *managing dependencies*. It is a set of coding techniques that arrange dependencies such that objects can tolerate change.
 
