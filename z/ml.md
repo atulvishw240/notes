@@ -24,4 +24,5 @@
  - [[each of pattern matching]]
  - [[a little type inference]]
  - [[polymorphic and equality types]]
+- [[nested patterns]]
 - 
