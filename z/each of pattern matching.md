@@ -21,3 +21,26 @@ fun sum_triple triple =
 		(x,y,z) => x + y + z
 ```
 
+
+## Function-argument patterns
+
+A function argument can also be a pattern
+- match against the argument in a function call
+
+```sml
+fun sum_triple (x,y,z) =
+	x + y + z
+```
+
+## The truth about functions
+
+- In ML, every function takes exactly one argument
+- What we call multi-argument functions are just functions taking one tuple argument, implemented with a tuple pattern in the function binding
+	- Elegant and flexible language design
+- Enables cute and useful things you cannot do in Java, e.g.
+```sml
+fun rotate_left (x,y,z) = (y,z,x)
+fun rotate_right t = rotate_left(rotate_left t)
+```
+
+- "Zero arguments" is the unit pattern `()` matching the unit value `()`

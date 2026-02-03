@@ -22,4 +22,5 @@
  - [[lists and options are datatypes]]
  - [[polymorphic types]]
  - [[each of pattern matching]]
+ - [[a little type inference]]
  - 
