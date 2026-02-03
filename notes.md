@@ -6,4 +6,3 @@
 - [[backend roadmap]]
 - [[poodr]]
 - [[well grounded rubyist]]
-- 
