@@ -25,4 +25,5 @@
  - [[a little type inference]]
  - [[polymorphic and equality types]]
 - [[nested patterns]]
+- [[more nested patterns]]
 - 
