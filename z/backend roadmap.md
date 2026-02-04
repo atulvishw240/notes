@@ -4,7 +4,7 @@
 	- [ ] What is HTTP
 	- [ ] What is Domain Name
 	- [ ] What is hosting
-	- [ ] DND and how it works
+	- [ ] DNS and how it works
 	- [ ] Browsers and how they work
 - [ ] Frontend Basics
 	- [ ] HTML
