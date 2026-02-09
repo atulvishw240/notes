@@ -1,16 +1,18 @@
 
-The `irb` utility ships with Ruby and is the most widely used Ruby command-line tool other than the interpreter itself.
+Ruby is a programming language. The lowercase version, ruby, is a computer program. Specifically, it’s the Ruby interpreter, the program that reads your programs and runs them. The `irb` utility ships with Ruby and is the most widely used Ruby command-line tool other than the interpreter itself.
 
 ## The variety of Ruby identifiers
 
 - Variables
-  - Local
-  - Instance - @
-  - Class - @@
-  - Global -$(anything, even /, ;)
-- Constants
+  - Local - first_name
+  - Instance - @first_name
+  - Class - @@first_name
+  - Global -$FIRST_NAME (anything, even /, ;)
+- Constants - FIRST_NAME
 - Keywords
 - Method names
+
+## Method calls, messages, and Ruby objects
 
 `x = 100.to_i` means, send the 'to_i' message to 100.
 
