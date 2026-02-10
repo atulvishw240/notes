@@ -18,8 +18,15 @@ Ruby is a programming language. The lowercase version, ruby, is a computer progr
 
 In Ruby, it's more correct to say that you send a message to a receiving object, and the object executes the corresponding method.
 
-Conveniently, the Ruby interpreter can check programs for syntax errors without running the programs. It reads through the file and tells you whether the syntax is okay. To run a syntax check on your file, do this: `$ ruby -cw c2f.rb` The -cw command-line flag is shorthand for two flags: -c and -w. The -c flag means check for syntax errors. The -w flag activates a higher level of warning: Ruby will fuss at you if you’ve done things that are legal Ruby but are questionable on grounds other than syntax.
+For now, just be aware that although every object has a class, the class of an object isn’t the sole determinant of what the object can do.
 
-Assuming you’ve typed the file correctly, you should see the message `Syntax OK` printed on your screen.
+The Ruby interpreter can check programs for syntax errors without running the programs. It reads through the file and tells you whether the syntax is okay. To run a syntax check on your file, do this: 
+`$ ruby -cw c2f.rb` 
 
-Pg no. 15 Reading from a file se padhna hai
+The -cw command-line flag is shorthand for two flags: -c and -w. The -c flag means check for syntax errors. The -w flag activates a higher level of warning: Ruby will fuss at you if you’ve done things that are legal Ruby but are questionable on grounds other than syntax.
+
+> If you ask `puts` to print a line that already ends with a newline, it doesn’t bother adding one.
+
+
+
+Page 17 se padhna hai

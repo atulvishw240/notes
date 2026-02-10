@@ -12,3 +12,15 @@ A **relational database management system**, or **RDBMS**, is essentially a so
 
 >[!important] E.F. Codd is the father of relational model
 
+
+Finding a way to visualize what’s going on when you do SQL queries is pretty important. We actually think of Excel tables moving in our heads and combining with each other and reshuffling as necessary.
+
+## Schema
+
+The setup information for your database is stored in a special file called the “**Schema**”, and this is updated whenever you make changes to the structure of your database.
+
+You can index a column with `CREATE INDEX`. This sorts the table ahead of time based on the column which you'll search upon (like usrename). This results in faster search responses.
+
+---
+
+Every CRUDdy command in SQL contains a few parts – the action (“statement”), the table it should run on, and the conditions (“clauses”). If you just do an action on a table without specifying conditions, it will apply to the whole table and you’ll probably break something.
