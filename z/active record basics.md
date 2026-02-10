@@ -1,7 +1,7 @@
 
 ## What is an ORM
 
->Object-Relational-Mapping, map databases records (or tuples) to objects.
+>Object-Relational-Mapping provides a nice interface between our application code and databases.
 
 Rails is actually seven Ruby gems that work harmoniously together. Active Record is, to put it inelegantly, the gem that takes care of all the database stuff.
 
@@ -17,14 +17,24 @@ The term "Active Record" also refers to a software architecture pattern. Active 
 
 ### The Active Record Pattern
 
-an object that wraps a row in a database table, encapsulates the database access, and adds domain logic to that data. Active Record objects carry both data and behavior.
+an object that wraps a row in a database table, encapsulates the database access, and adds domain logic to that data.
+
+## Active Record as an ORM Framework
+
+Active Record gives us the ability to do the following using Ruby objects:
+
+- Represent models and their data.
+- Represent associations between models.
+- Represent inheritance hierarchies through related models.
+- Validate models before they get persisted to the database.
+- Perform database operations in an object-oriented fashion.
 
 ## Convention over Configuration in Active Record
 
-**Naming Conventions** : A class named **Book** maps to a database table named **books**.
+**Naming Conventions** : A model's class named **Book** maps to a database table named **books**.
 **Schema conventions** :
 - **Primary keys** : default **id** (`bigint`) column
-- **Foreign keys** : pattern `singularized_table_name_id`. Ex: `order_id`
+- **Foreign keys** : `singularized_table_name_id`. Ex: `order_id`
 
 ## Creating Active Record Models
 
