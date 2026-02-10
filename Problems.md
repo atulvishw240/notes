@@ -1,0 +1,6 @@
+
+
+| **Topic** | **Level** | **Problem**                                                                                                           | **Solution**                                                                                                                                                    |
+| --------- | --------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Arrays    | Easy      | [remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Create two pointers first and second. If elements at first and second is same then increment second by 1 else move first by 1 and Copy second element at first. |
+|           |           |                                                                                                                       |                                                                                                                                                                 |
