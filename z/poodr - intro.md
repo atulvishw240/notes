@@ -30,3 +30,9 @@ BUFD is about completely specifying and totally documenting the anticipated futu
 
 Metrics software works by scanning source code and counting things that predict quality.
 
+Bad OOD metrics are indisputably a sign of bad design; code that scores poorly *will* be hard to change. Unfortunately, good scores don't prove the opposite; that is, they don't guarantee that the next change you make will be easy or cheap. The problem is that it is possible to create beautiful designs that over-anticipate the future.
+
+While these designs may generate very good OOD metrics, if they anticipate the *wrong* future, they will be expensive to fix when the real future finally arrives. OOD metrics cannot identify designs that do the wrong thing in the right way.
+
+
+
