@@ -8,4 +8,5 @@
 - [[well grounded rubyist]]
 - [[critical thinking]]
 - [[computer networking]]
+- [[english]]
 - 
