@@ -37,15 +37,32 @@ The computers and other devices connected to the internet are often referred to 
 
 **Hosts** are further divided into **clients** and **servers**.
 
-### Client and Server Programs
+## 1.2.1 Client and Server Programs
 
 A **client program** is a program running on one end system that requests and receives a service from a **server program** running on another end system. Since, a client program typically runs on one computer and the server program runs on another computer, client-server Internet applications are, by definition **distributed applications**.
 
-### Access Networks
+## 1.2.2 Access Networks
 
->The physical links (coaxial, copper wire, fiber optics, satellite, etc.)
+>The network that physically connects an end system to the first router.
 
+### DSL
 
+- A residence typically obtains **DSL** (digital subscriber line) Internet access from the same local telephone company (telco) that provides its wired local phone access.
+- Thus, when DSL is used, a customer’s telco is also its ISP.
+- asymmetric access
+- makes use of the telco's existing telephone infrastructure
+![[dsl-internet-access.png]]
 
+This approach makes the single DSL link appear as if there were three separate links (by frequency division multiplexing) , so that a telephone call and an Internet connection can share the DSL link at the same time.
 
+>[!info] Asymmetric access
+>When upstream and downstream transmission rates are different.
 
+### Cable
+
+- asymmetric access
+- makes use of the cable television company’s existing cable television infrastructure
+![[hybrid-fiber-coaxial.png]]
+
+**Fiber node**: neighborhood-level junctions (supports 500 - 5000 homes)
+**CMTS**: Cable Modem Termination System
