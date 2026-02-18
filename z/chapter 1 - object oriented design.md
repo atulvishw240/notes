@@ -35,4 +35,14 @@ Bad OOD metrics are indisputably a sign of bad design; code that scores poorly *
 While these designs may generate very good OOD metrics, if they anticipate the *wrong* future, they will be expensive to fix when the real future finally arrives. OOD metrics cannot identify designs that do the wrong thing in the right way.
 
 
+## A Brief Introduction to Object Oriented Programming
 
+
+| **S. No.** | **Feature** | **Procedural Languages**                                                  | **Object-Oriented Languages**                                                                      |
+| ---------- | ----------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| 1.         | Basic Units | Divided between **data** and **behavior**                                 | Combines **data** and **behavior** into a single unit: the **object**                              |
+| 2.         | Data Types  | A small, fixed set of built-in data types (e.g. strings, numbers, arrays) | Open-ended; programmers can invent brand new types specifically tailored to their domain.          |
+| 3.         | Operations  | Built into the syntax of the language to manipulate various data types.   | Built into the objects themselves; objects decide how much data to expose                          |
+| 4.         | Interaction | Data is packaged into variables and passed around to behavior/functions.  | Objects invoke behavior in one another by sending messages                                         |
+| 5.         | Structure   | Uses functions to group operations and data structures to group types.    | Uses classes as blueprints to manufacture many objects with identical behavior but different data. |
+| 6.         | Visibility  | Influences on data can be unpredictable and largely untraceable           | Objects **encapsulate** (hide) their data from the outside world.                                  |

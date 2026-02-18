@@ -1,3 +1,3 @@
-- [[poodr - intro]]
-- [[chapter 1 - object-oriented design]]
+- [[chapter 1 - object oriented design]]
+- [[chapter 2 - designing classes with a single responsibility]]
 - 
