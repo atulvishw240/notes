@@ -21,3 +21,13 @@ then the code you write should have the following qualities. Code should be:
 - **Usable**
 - **Exemplary**
 
+## Why Single Responsibility Matters
+
+Applications that are easy to change consists of classes that are easy to reuse.
+
+A class that has more than one responsibility is difficult to reuse. The various responsibilities are likely thoroughly entangled *within* the class. If you want to reuse some (but not all) of its behavior, it is impossible to get only the parts you need. You are faced with two options and neither is particularly appealing.
+
+More responsibility means many reasons to change. Each time it changes, there's a possibility of breaking every class that depends on it.
+
+## Determining If a Class Has a Single Responsibility
+
