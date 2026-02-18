@@ -60,9 +60,38 @@ This approach makes the single DSL link appear as if there were three separate l
 
 ### Cable
 
+- cable modems divide the HFC network into two channels, a downstream and an upstream channel
 - asymmetric access
 - makes use of the cable television company’s existing cable television infrastructure
+- it is a shared broadcast medium. In particular, every packet sent by the head end travels downstream on every link to every home and every packet sent by a home travels on the upstream channel to the head end.
 ![[hybrid-fiber-coaxial.png]]
 
 **Fiber node**: neighborhood-level junctions (supports 500 - 5000 homes)
-**CMTS**: Cable Modem Termination System
+**CMTS**: Cable Modem Termination System (similar function as DSLAM)
+
+### Fiber-To-The-Home (FTTH)
+
+- There are two competing optical-distribution network architectures that perform this splitting: active optical networks (AONs) and passive optical networks (PONs)
+![[ftth-internet-access.png]]
+
+**ONT** : Optical Network Terminator
+**OLT** : Optical Line Terminator (conversion between optical and electrical signals)
+
+At home user connects a home router to the ONT and access the internet via this home router.
+In PON architecture, all packets sent from OLT to the splitter are replicated at the splitter (similar to a cable head end).
+
+### Ethernet
+
+Ethernet is by far the most prevaent access technology in corporate, university, and home networks. Ethernet users use twisted-pair copper wire to connect to an Ethernet switch.
+![[ethernet-internet-access.png]]
+
+### WiFi
+
+- In a **wireless LAN**, wireless users transmit/receive packets to/from an **access point** that in turn is connected to the wired internet.
+- A wireless LAN user must typically be within a few tens of meters of the access point.
+
+### Wide-Area Wireless Access: 3G and LTE 4G and 5G
+
+- Mobile devices such as iPhones and Android devices are being used to message, share photos in social networks, make mobile payments, watch movies, stream music, and much more while on the run.
+- These devices employ the same wireless infrastructure used for cellular telephony to send/receive packets through a base station that is operated by the cellular network provider.
+- Unlike WiFi, a user need only be within a few tens of kilometers (as opposed to a few tens of meters) of the base station.
