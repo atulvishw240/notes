@@ -128,3 +128,67 @@ Two types of physical medium:
 
 ### Terrestrial Radio Channels
 
+- Radio channels carry signals in the electromagnetic spectrum
+- no physical wire, can penetrate walls, can potentially carry a signal for long distances
+- broadly classified into two types:
+	- operate in local areas (ten to few hundred meters). Ex: wireless LAN technologies described in 1.2.2
+	- operate in wide area (tens of kilometers). Ex: cellular access technologies
+
+### Satellite Radio Channels
+
+- A communication satellite links two or more Earth-based microwave transmitter/receivers, known as ground stations
+- The satellite receives transmissions on one frequency band, regenerates the signal using a repeater (discussed below), and transmits the signal on another frequency.
+- two types
+	- geostationary satellites
+	- low-earth orbiting (LEO) satellites
+
+# 1.3 The Network Core
+
+## 1.3.1 Packet Switching
+
+- In a network application, end systems exchange **messages** with each other
+- To send a message from a source end system to a destination end system, the source breaks long messages into smaller chunks of data known as **packets**
+- Packet = L bits, Transmission rate of link = R bits/sec, Time = Packet size / Transmission rate i.e. L/R seconds
+
+### Store-and-Forward Transmission
+
+- Most packet switches use **store-and-forward transmission** at the inputs to the links 
+- Store-and-forward transmission means that the packet switch must receive the entire packet before it can begin to transmit the first bit of the packet onto the outbound link
+![[store-and-forward-packet-switching.png]]
+
+Each packet size = L bits
+Each Link Transmission rate = R bps
+
+General case of sending one packet from source to destination over a path consisting of *N* links each of rate R (thus there are N-1 routers between source and destination) =
+d (end-to-end) = N L / R
+
+For above diagram, N = 2 so 2L / R is the time taken to transmit 1 packet.
+
+### Queuing Delays and Packet Loss
+
+- Each packet switch has multiple links attached to it
+- For each attached link, the packet switch has an **output buffer**, which stores packets that the router is about to send into that link
+- if link is busy then packet will have to wait in output buffer, this is called **queuing delays**
+- **packet loss** : if output queue is full then either the next incoming packet or a packet from the queue will be dropped
+![[packet-switching.png]]
+
+### Forwarding Tables and Routing Protocols
+
+>[!question] How does the router determine which link it should forward the packet onto?
+>Router uses a packet's destination address to index a forwarding table and determine the appropriate outbound link.
+
+- In the Internet, every end system has an address called an IP address (has a hierarchical structure like postal address)
+- When a source end system wants to send a packet to a destination end system, the source includes the destination’s IP address in the packet’s header
+- each router has a **forwarding table** that maps destination addresses (or portions of the destination addresses) to that router’s outbound links
+
+## 1.3.2 Circuit Switching
+
+- There are two fundamental approaches to moving data through a network of links and switches: **circuit switching** and **packet switching**
+- In circuit-switched networks, the resources needed along a path (buffers, link transmission rate) to provide for communication between the end systems are *reserved* for the duration of the communication session between the end systems
+- In packet-switched networks, these resources are not reserved; a session’s messages use the resources on demand and, as a consequence, may have to wait (that is, queue) for access to a communication link
+- Traditional telephone networks are examples of circuit-switched networks
+![[simple-circuit-switched-network.png]]
+Each circuit gets 1/4th transmission rate of the original link. If each link between switches has a transmission rate of 1 Mbps, then each end-to-end circuit gets 250 kbps of dedicated transmission rate.
+
+### Multiplexing in Circuit-Switched Networks
+
