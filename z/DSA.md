@@ -2,7 +2,7 @@
 - [[Problems]]
 - [[Array]]
 - [[Stack]]
-- 
+- [[Linked List]]
 
 ---
 
