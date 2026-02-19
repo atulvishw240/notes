@@ -192,3 +192,16 @@ Each circuit gets 1/4th transmission rate of the original link. If each link bet
 
 ### Multiplexing in Circuit-Switched Networks
 
+> A circuit in a link is implemented with either **frequency-division multiplexing (FDM)** or **time-division multiplexing (TDM)**
+
+**Frequency Division Multiplexing**
+- With FDM, the frequency spectrum of a link is divided up among the connections established across the link
+- Specifically, the link dedicates a frequency band to each connection for the d­uration of the connection. In telephone networks, this frequency band typically has a width of 4 kHz (that is, 4,000 hertz or 4,000 cycles per second). The width of the band is called, not surprisingly, the **bandwidth**.
+![[fdm.png]]
+
+
+**Time Division Multiplexing**
+- For a TDM link, time is divided into frames of fixed duration, and each frame is divided into a fixed number of time slots
+- When the network establishes a connection across a link, the network dedicates one time slot in every frame to this connection. These slots are dedicated for the sole use of that connection, with one time slot available for use (in every frame) to transmit the connection’s data
+- Transmission rate = Frame rate x no. of bits in a slot. Example : 8000 frames per second and each slot consists of 8 bits, then the transmission rate of each circuit = 8000 * 8 = 64 kbps.
+![[tdm.png]]
