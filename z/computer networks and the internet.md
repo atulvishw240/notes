@@ -95,3 +95,36 @@ Ethernet is by far the most prevaent access technology in corporate, university,
 - Mobile devices such as iPhones and Android devices are being used to message, share photos in social networks, make mobile payments, watch movies, stream music, and much more while on the run.
 - These devices employ the same wireless infrastructure used for cellular telephony to send/receive packets through a base station that is operated by the cellular network provider.
 - Unlike WiFi, a user need only be within a few tens of kilometers (as opposed to a few tens of meters) of the base station.
+
+## 1.2.2 Physical Media
+
+Our bit, when travelling from source to destination, passes through a series of transmitter-receiver pairs. For each transmitter-receiver pair, the bit is sent by propagating electromagnetic waves or optical pulses across a **physical medium**.
+
+Two types of physical medium: 
+- **guided** : waves are guided along a solid medium, such as fiber-optic cable, twisted-pair copper wire, or a coaxial cable.
+- **unguided** : waves propagate in the atmosphere and in outer space, such as in a wireless LAN or a digital satellite channel.
+
+### Twisted-Pair Copper Wire
+
+- least expensive and most commonly used
+- two insulated copper wires, each about 1 mm thick, spiral pattern
+- wires are twisted to reduce electrical interference from similar pairs close by
+- **Unshielded Twisted Pair (UTP)** is commonly used for LANs
+- data rates range from 10Mbps to 10Gbps
+
+### Coaxial Cable
+
+- consists of two concentric copper conductors
+- can be used as a guided **shared medium**. A number of end systems can be connected directly to the cable, with each of the end system receiving whatever is sent by the other end systems
+- data rates of hundreds of Mpbps
+
+### Fiber Optics
+
+- thin flexible medium that conducts pulses of light, with each pulse representing a bit
+- immune to electromagnetic interference
+- very low signal attenuation up to 100 kilometers
+- many long distance telephone networks now use fiber optics
+- data rates up to 10s or even 100s of Gbps
+
+### Terrestrial Radio Channels
+
