@@ -205,3 +205,6 @@ Each circuit gets 1/4th transmission rate of the original link. If each link bet
 - When the network establishes a connection across a link, the network dedicates one time slot in every frame to this connection. These slots are dedicated for the sole use of that connection, with one time slot available for use (in every frame) to transmit the connection’s data
 - Transmission rate = Frame rate x no. of bits in a slot. Example : 8000 frames per second and each slot consists of 8 bits, then the transmission rate of each circuit = 8000 * 8 = 64 kbps.
 ![[tdm.png]]
+
+### Packet Switching Versus Circuit Switching
+
