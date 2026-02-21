@@ -17,4 +17,12 @@ var name = "Atul"; // type of name will be String
 **Boolean precedence Order**
 `! > && > ||`
 
-Section 7 Integers se padhna 
+**Operator Precedence** : PEMDAS (Parentheses, Exponentiation, Multiply, Division, Add, Subtract)
+When same precedence (Multiply, Add) perform operations Left to Right
+
+**Limits** : Integers in range (`-2^31 to 2^31 -1`)
+If you do math that should produce a larger number than is representable, the value will "loop around."
+When a value loops around because it got too big we call that "**overflow**." When it loops around because it got too small we call that "**underflow**."
+
+[floating point numbers - computerphile](https://youtu.be/PZRI1IfStY0?si=ry3oRKLakNKfbYNI)
+
