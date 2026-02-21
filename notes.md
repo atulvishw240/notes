@@ -9,5 +9,5 @@
 - [[critical thinking]]
 - [[computer networking]]
 - [[english]]
-- [[java]]
+- [[enough-command-line-to-be-dangerous]]
 - 
