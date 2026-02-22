@@ -239,4 +239,54 @@ A **PoP** is simply a group of one or more routers (at the same location) in the
 
 Any ISP (except for iter-1 ISPs) may choose to **multi-home**, that is, to connect to two or more provider ISPs. When an ISP multi-homes, it can continue to send and receive packets into the Internet even if one of its providers has a failure.
 
+The amount that a customer ISP pays a provider ISP reflects the amount of traffic it exchanges with the provider. To reduce these costs, a pair of nearby ISPs at the same level of the hierarchy can **peer**, that is, they can directly connect their networks together so that all the traffic between them passes over the direct connection rather than through upstream intermediaries. When two ISPs peer, it is typically settlement-free, that is, neither ISP pays the other.
+
+Along these same lines, a third-party company can create an **Internet Exchange Point (IXP)**,
+which is a meeting point where multiple ISPs can peer together. An IXP is typically in a stand-alone building with its own switches.
+
+**Network Structure 5**
+add **content-provider networks** to Network Structure 4. Content provider network example: Google.
+
+Google private network attempts to “bypass” the upper tiers of the Internet by peering (settlement free) with lower-tier ISPs, either by directly connecting with them or by connecting
+with them at IXPs.
+
+However, because many access ISPs can still only be reached by transiting through tier-1 networks, the Google network also connects to tier-1 ISPs, and pays those ISPs for the traffic it exchanges with them. By creating its own network, a content provider not only reduces its payments to upper-tier ISPs, but also has greater control of how its services are ultimately delivered to end users.
+
+![[interconnection-of-isps.png]]
+
+# 1.4 Delay, Loss, and Throughput in Packet-Switched Networks
+
+Ideally, we would like Internet services to be able to move as much data as we want between any two end systems, instantaneously, without any loss of data.
+
+## 1.4.1 Overview of Delay in Packet-Switched Networks
+
+When a packet travels from one node (host or router) to the subsequent node (host or router) along this path, the packet suffers from several types of delays at *each* node along the path. Together all the delays accumulate to give a **total nodal delay**.
+
+### Types of Delay
+
+![[nodal-delay.png]]
+
+### Processing Delay
+
+The time required to examine the packet’s header and determine where to direct the packet is part of the **processing delay**
+
+### Queuing Delay
+
+At the queue, the packet experiences a **queuing delay** as it waits to be transmitted onto the link.
+
+### Transmission Delay
+
+Packet size = L bits, R = transmission rate bits/second
+The **transmission delay** is L/R. This is the amount of time required to push (that is, transmit) all of the packet’s bits into the link.
+
+### Propagation Delay
+
+Once a bit is pushed into the link, it needs to propagate to router B. The time required to propagate from the beginning of the link to router B is the **propagation delay.**
+
+Propagation speed (**s**) ranges in - 2 x 10^8 m/s to 3 x 10^8 m/s
+Distance (**d**) - between router A and B
+**Propagation delay** = d/s
+
+### Comparing Transmission and Propagation Delay
+
 
