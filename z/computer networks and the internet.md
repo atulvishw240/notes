@@ -208,3 +208,9 @@ Each circuit gets 1/4th transmission rate of the original link. If each link bet
 
 ### Packet Switching Versus Circuit Switching
 
+- Critics of packet switching have often argued that packet switching is not suitable for real-time services (for example, telephone calls and video conference calls)
+- because of its variable and unpredictable end-to-end delays (due primarily to variable and unpredictable queuing delays)
+- Proponents of packet switching argue that
+	- (1) it offers better sharing of transmission capacity than circuit switching and 
+	- (2) it is simpler, more efficient, and less costly to implement than circuit switching
+
