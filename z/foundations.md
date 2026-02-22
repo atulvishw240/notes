@@ -4,6 +4,7 @@
 - [[how does the web work]]
 - [[command line basics]]
 - [[Git]]
-- [[html]]
+- [[html foundations]]
 - [[css]]
+- [[javascript basics]]
 - 
