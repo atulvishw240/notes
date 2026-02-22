@@ -223,3 +223,6 @@ Each circuit gets 1/4th transmission rate of the original link. If each link bet
 
 One naive approach would be to have each access ISP directly connect with every other access ISP all over the world. (costly for access ISPs)
 
+**Network Structure I**
+Interconnect all of the access ISPs with a *single global transit* ISP (imaginary), which has at least one router near each of the hundreds of thousands of access ISPs. Global transit ISP (**provider**) will charge access ISP (**customer**) based on amount of traffic it exchanges with itself.
+
