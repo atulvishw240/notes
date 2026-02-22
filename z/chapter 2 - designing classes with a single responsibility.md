@@ -130,3 +130,22 @@ Gear's diameter method depends solely on things in Wheel. This suggest that meth
 
 Gear is definitely responsible for calculating `gear_inches`, but Gear should not be calculating Wheel diameter.
 
+**Isolating Extra Responsibilities in Classes**
+
+Should we isolate Wheel like behavior from Gear into its own class?
+
+You will be best served by postponing decisions until you are absolutely forced to make them.
+
+Any decision you make in advance of an explicit requirement is just a guess. Don't decide preserve your ability to make a decision later.
+
+##  Finally, the Real Wheel
+
+Embedding Wheel inside of Gear suggests that you expect that a Wheel only exist inside the context of Gear, common sense suggests otherwise. In this case, enough information exists right now to support the creation of an independent Wheel class. However, every domain isn't this clear cut.
+
+Then the new requirement for calculating "bicycle wheel circumference" came. ==The real change is that now your application has an explicit need for a Wheel that it can use independently of Gear. Its time to create Wheel class.==
+
+---
+
+## Summary
+
+Classes that do one thing *isolate* that thing from the rest of your application. This isolation allows change without consequence and reuse without duplication.
