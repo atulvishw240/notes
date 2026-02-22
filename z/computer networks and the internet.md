@@ -226,3 +226,17 @@ One naive approach would be to have each access ISP directly connect with every 
 **Network Structure I**
 Interconnect all of the access ISPs with a *single global transit* ISP (imaginary), which has at least one router near each of the hundreds of thousands of access ISPs. Global transit ISP (**provider**) will charge access ISP (**customer**) based on amount of traffic it exchanges with itself.
 
+**Network Structure 2**
+*multiple* global transit ISPs and they must interconnect. Although some ISPs do have impressive global coverage and do directly connect with many access ISPs, no ISP has presence in each and every city in the world.
+
+**Network Structure 3**
+To further complicate matters, in some regions there may be a **larger regional ISP** (possibly spanning an entire country) to which the smaller **regional ISPs** in that region connect. This larger regional ISP then connects to a **tier-1 ISP**.
+
+**Network Structure 4**
+To build a network that more closely resembles today’s Internet, we must add points of presence (PoPs), multi-homing, peering, and Internet exchange points (IXPs) to the hierarchical Network Structure 3.
+
+A **PoP** is simply a group of one or more routers (at the same location) in the provider’s network where customer ISPs can connect into the provider ISP. For a customer network to connect to a provider’s PoP, it can lease a high-speed link from a third-party telecommunications provider to directly connect one of its routers to a router at the PoP.
+
+Any ISP (except for iter-1 ISPs) may choose to **multi-home**, that is, to connect to two or more provider ISPs. When an ISP multi-homes, it can continue to send and receive packets into the Internet even if one of its providers has a failure.
+
+
