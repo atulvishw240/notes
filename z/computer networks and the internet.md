@@ -211,6 +211,15 @@ Each circuit gets 1/4th transmission rate of the original link. If each link bet
 - Critics of packet switching have often argued that packet switching is not suitable for real-time services (for example, telephone calls and video conference calls)
 - because of its variable and unpredictable end-to-end delays (due primarily to variable and unpredictable queuing delays)
 - Proponents of packet switching argue that
-	- (1) it offers better sharing of transmission capacity than circuit switching and 
+	- (1) it offers better sharing of transmission capacity (1 Mbps link) (35 users) than circuit switching (10 users) and 
 	- (2) it is simpler, more efficient, and less costly to implement than circuit switching
+
+## 1.3.3 A Network of Networks
+
+- end systems connect to the internet via ISP
+- an ISP can be a cable or telco but also a university or company
+
+>ISPs must be interconnected so that all end systems can send packets to each other
+
+One naive approach would be to have each access ISP directly connect with every other access ISP all over the world. (costly for access ISPs)
 
