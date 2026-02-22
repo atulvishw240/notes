@@ -39,5 +39,22 @@ Note: When Ctrl-C fails, 90% of the time hitting ESC (escape) will do the trick.
 `tail sonnets.txt` - shows last 10 lines
 `wc sonnets.txt` - shows lines, words and bytes
 `head sonnets.txt | wc`  -  `wc` can also take input from "standard in"
+`less sonnets.txt` - shows content of the file (`G` end of file, `1G` start of file)
+>`CTRL + F` - move forward one page, `CTRL + B` - move backward one page
 
-less is more se padhna hai
+### Grepping
+
+`grep rose sonnets.txt` - return all lines in `sonnets.txt` that contains "rose"
+
+>`grep` is case insensitive by default. Use `-i` for case insensitive meaning
+
+`!n` - executes the nth command in the command history
+
+`sudo apt update && sudo apt upgrade` - The difference is that commands separated by && run only if the previous command succeeded
+
+`mv foo/ bar/` - renames foo directory to bar
+`cp -r ../text-files .`  - copy the directory and all its content recursively in the current directory
+`rm -rf dir/` - removes `dir`, its files, and any sub directories without confirmation
+
+I understand the joke now 
+`sudo rm -rf /` will delete everything, even your operating system
