@@ -24,4 +24,10 @@ Each object of the tree is a node. DOM represents current page content.
 - `border` adds space (even if it’s only a pixel or two) between the margin and the padding.
 - `margin` increases the space between the borders of a box and the borders of adjacent boxes.
 
+## Block and Inline elements
+
+>[!tip] In general, you do not want to try to put extra padding or margin on inline elements.
+
+
+>Unlike other elements, `divs` and `spans` give no particular meaning to their content. They are just generic boxes that can contain anything.
 
