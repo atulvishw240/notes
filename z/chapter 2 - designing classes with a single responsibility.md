@@ -54,6 +54,9 @@ Always ask yourself, "*What is the future cost of doing nothing today?*". If the
 
 Conveniently, the new requirements will supply the exact information you need to make good design decisions.
 
+>[!tip] "Improve it now" vs "improve it later" tension always exists
+
+
 ## Write Code That Embraces Change
 
 ### Depend on Behavior, Not Data
