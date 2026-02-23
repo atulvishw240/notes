@@ -289,4 +289,30 @@ Distance (**d**) - between router A and B
 
 ### Comparing Transmission and Propagation Delay
 
+**Analogy**: Segments between tollbooth = links
+Tollbooths = routers
+Car = bit
+Caravan of 10 cars = packet
+Speed of car = 100 km/hr
+Distance between tollbooths = 100 km
+Tollbooth transmission rate = 1 car/12 sec
 
+>entire caravan must be stored at the tollbooth before it can begin to be forwarded.
+
+Time required by tollbooth to push the entire caravan onto the highway = (10 cars) / (5 cars/minute)= 2 minutes (this time is analogous to transmission delay in a router)
+
+Time required for a car to travel from the exit of one tollbooth to the next tollbooth = 100 km/(100 km/hr) = 1 hour (this time is analogous to propagation delay)
+
+==Nodal delay = processing + queuing + transmission + propagation==
+
+![[caravan-analogy.png]]
+
+## 1.4.2 Queuing Delay and Packet Loss
+
+
+
+## 1.4.4 Throughput in Computer Networks
+
+- In addition to delay and packet loss, another critical performance measure in computer networks is end-to-end throughput
+- **instantaneous throughput** - (bits/sec) you can see this when you download a file from the internet (4.6 Mb/s)
+- **average throughput** = F/T bits/sec; where F is the size of file in bits; T is time it took for host to receive all F bits in seconds
