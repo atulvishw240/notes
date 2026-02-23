@@ -316,3 +316,31 @@ Time required for a car to travel from the exit of one tollbooth to the next tol
 - In addition to delay and packet loss, another critical performance measure in computer networks is end-to-end throughput
 - **instantaneous throughput** - (bits/sec) you can see this when you download a file from the internet (4.6 Mb/s)
 - **average throughput** = F/T bits/sec; where F is the size of file in bits; T is time it took for host to receive all F bits in seconds
+- Throughput is the **minimum** of transmission rates because the slowest link acts as a bottleneck, limiting the rate at which data can be delivered to the destination. Faster links cannot increase end-to-end throughput.
+
+
+![[throughput.png]]
+
+In (a) suppose that all the links in the core of the communication network have very high transmission rates, much higher than Rs and Rc then throughput = min {Rs, Rc}
+
+In (b), if R = 200 Mpbs, Rs = 5 Mbps, Rc = 2 Mbps then each pair will get 20 Mbps transmission rate. In this case throughput will again be min {Rs, Rc}.
+(Case where R is 100s of times larger than Rs and Rc)
+
+However, If R = 5 Mbps , Rs = 2 Mbps, Rc = 1 Mbps then each pair will get 500 Kbps transmission rate. In this case the highest transmission link (R) became the bottleneck link and hence the throughput is now 500 Kbps.
+
+So throughput depends on :
+- transmission rates of the links over which data flows (a)
+- intervening traffic (b)
+
+>Therefore, the constraining factor for throughput in today’s Internet is typically the access network.
+
+
+
+# 1.5 Protocol Layers and Their Service Models
+
+## 1.5.1 Layered Architecture
+
+As long as the layer provides the same service to the layer above it, and uses the same services from the layer below it, the remainder of the system remains unchanged when a layer’s implementation is changed.
+
+### Protocol Layering
+
