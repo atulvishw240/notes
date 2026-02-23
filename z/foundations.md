@@ -5,6 +5,6 @@
 - [[command line basics]]
 - [[Git]]
 - [[html foundations]]
-- [[css]]
+- [[css foundations]]
 - [[javascript basics]]
 - 
