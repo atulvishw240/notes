@@ -29,3 +29,50 @@ Some amount of dependency is inevitable because objects need to collaborate to p
 When `Gear` hard-codes a reference to `Wheel` deep inside its `gear_inches` method, it is explicitly declaring that it is only willing to calculate gear inches for instances of `Wheel`. `Gear` refuses to collaborate with any other kind of object, even if that object has a diameter and uses gears.
 
 Using dependency injection to shape code relies on your ability to recognize that the responsibility for knowing the name of a class and the responsibility for knowing the name of a message to send to that class may belong in different objects. (**Factory**)
+
+## 3.2.2 Isolate Dependencies
+
+### Isolate instance creation
+
+Isolate dependency (`Wheel.new`) from `Gear#gear-inches` method to `Gear#initialize`. This reveals the dependency instead of hiding it inside the class.
+
+>Develop a habit of routinely injecting your dependencies.
+
+### Isolate Vulnerable External Messages
+
+This technique becomes necessary when a class contains embedded references to a *message* that is likely to change.
+
+Example:
+```ruby
+def gear_inches
+  #... A few lines of scary math
+  foo = some_intermediate_result * wheel diameter
+  #... More lines of scary math
+end
+```
+
+`wheel.diameter` is embedded inside a complex method.
+
+Removing the external dependency and encapsulating it into its own method:
+```ruby
+def gear_inches
+  #... A few lines of scary math
+  foo = some_intermediate_result * diameter
+  #... More lines of scary math
+end
+
+def diameter
+  wheel.diameter
+end
+```
+
+Now, `gear_inches` can depend on a method sent to `self`. Earlier, `gear_inches` knew that `wheel` (external object) had a `diameter` (external message).
+
+### Use keyword arguments (Ruby specific)
+
+### Explicitly Define Defaults (initialize defaults)
+
+### Isolate Multiparameter Inialization
+
+The classes in your method should depend on code that you own; use a wrapping method to isolate external dependencies.
+
