@@ -1,0 +1,2 @@
+
+It provides a connection oriented service to applications. Service includes guaranteed delivery of messages to the destination and flow control (sender/receiver speed matching). It also breaks long messages into shorter ­ segments and provides a congestion-control mechanism, so that a source throttles its transmission rate when the network is congested. 

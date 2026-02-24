@@ -1,0 +1,1 @@
+It gives a connectionless service to its applications. No reliability, no flow control and no congestion control

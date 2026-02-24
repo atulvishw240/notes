@@ -344,3 +344,28 @@ As long as the layer provides the same service to the layer above it, and uses t
 
 ### Protocol Layering
 
+| Application |
+| ----------- |
+| Transport   |
+| Network     |
+| Link        |
+| Physical    |
+**Five-layer internet protocol stack**
+
+### Application Layer
+
+- network applications
+- HTTP (Web document request and transfer)
+- SMTP (transfer of e-mail messages)
+- FTP (transfer of files between end systems)
+- packet of information at this layer is called **messsage**
+
+### Transport Layer
+
+- transports application-layer messages between application endpoints
+- [[TCP]] & [[UDP]]
+- transport-layer packet is called **segment**
+
+## Network Layer
+
+- 
