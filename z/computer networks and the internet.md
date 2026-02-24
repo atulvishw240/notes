@@ -304,11 +304,51 @@ Time required by tollbooth to push the entire caravan onto the highway = (10 car
 Time required for a car to travel from the exit of one tollbooth to the next tollbooth = 100 km/(100 km/hr) = 1 hour (this time is analogous to propagation delay)
 
 ==Nodal delay = processing + queuing + transmission + propagation==
+(nodal delay is the delay at **one router only**)
 
 ![[caravan-analogy.png]]
 
 ## 1.4.2 Queuing Delay and Packet Loss
 
+- The most complicated and interesting component of nodal delay is the queuing delay
+- Unlike the other three delays, the queuing delay can vary from packet to packet
+- Factors affecting queuing delay:
+	- rate at which traffic arrives at the queue
+	- transmission rate of the link
+	- nature of arriving traffic (periodically or arrives in bursts)
+
+**Assumptions**
+Average rate at which packets arrive at the queue = a (is in units of packets/sec)
+Transmission rate = R (bits/sec)
+Each packet size = L bits
+queue is very bit (can hold essentially an infinite number of bits)
+
+**Average rate at which bits arrive in the queue = La bits/sec**
+
+==Traffic intensity = La / R ==, If :
+- La / R > 1 then queue will increase without bound and the queuing delay will approach infinity
+- La / R <= 1 then nature of traffic (bursts or periodic) impacts the queuing delay
+![[average-queuing-delay-vs-traffic-intensity.png]]
+
+### Packet Loss
+
+The fraction of lost packets increases as the traffic intensity (*La/R*) increases. Therefore, performance at a node is often measured not only in terms of delay, but also in terms of the probability of packet loss.
+
+## 1.4.3 End-to-End Delay
+
+**Network setup assumptions**:
+- There are **N − 1 routers** between source and destination  
+	-So total **nodes = N** (source + routers)
+- Network is **uncongested**  
+	- **Queuing delay ≈ 0**
+- Each node has the **same delays**
+- Packet size = **L bits**
+- Transmission rate = **R bits/sec**
+
+The packet goes through N nodes, and each node adds the same delay so,
+total delay = (sum of delays at one node) x (number of nodes)
+
+end-to-end-delay = N (processing delay + transmission delay + propagation delay)
 
 
 ## 1.4.4 Throughput in Computer Networks
@@ -333,7 +373,6 @@ So throughput depends on :
 - intervening traffic (b)
 
 >Therefore, the constraining factor for throughput in today’s Internet is typically the access network.
-
 
 
 # 1.5 Protocol Layers and Their Service Models
@@ -366,6 +405,61 @@ As long as the layer provides the same service to the layer above it, and uses t
 - [[TCP]] & [[UDP]]
 - transport-layer packet is called **segment**
 
-## Network Layer
+### Network Layer
 
-- 
+- moves network layer packets from one host to another
+- network layer packets are called **datagrams**
+- IP protocol, routing protocols
+
+### Link Layer
+
+- move a packet from one node (host or router) to the next node in **route**
+- Protocols example: Wifi, Ethernet, PPP, etc.
+- link-layer packets as **frames**
+
+## 1.5.2 Encapsulation
+
+>[!note] Hosts implement all five layers; this is consistent with the view that the internet architecture puts much of its complexity at the edges of the network.
+
+
+![[layers-in-nw-devices.png]]
+
+Each layer adds its own header information, so on the receiver side the information can be delivered correctly.
+
+At each layer, a packet has two types of fields:
+- header fields
+- **payload field**
+
+# 1.6 Networks Under Attack
+
+## The Bad Guys Can Put Malware into Your Host Via the Internet
+
+Much of the malware out there today is **self-replicating**:  once it infects one host, from that host it seeks entry into other hosts over the Internet.
+
+Once malware infects our device it can do all kinds of devious things, including deleting our files and installing spyware that collects our private information. Our compromised host may also be enrolled in a network of thousands of similarly compromised devices, collectively known as a **botnet**, which the bad guys control and leverage for spam
+e-mail distribution or distributed denial-of-service attacks against targeted hosts.
+
+## The Bad Guys Can Attack Servers and Network Infrastructure
+
+**Denial of Service (DoS) attacks**
+A DoS attack renders a network, host, or other piece of infrastructure unusable by legitimate users. Most DoS attacks fall into one of three categories:
+- **Vulnerability attack** - If the right sequence of packets is sent to a vulnerable application or operating system, the service can stop or, worse, the host can crash.
+- **Bandwidth flooding** - The attacker sends a deluge of packets to the targeted host—so many packets that the target’s access link becomes clogged, preventing legitimate packets from reaching the server.
+- **Connection flooding** - The attacker establishes a large number of half-open or fully open TCP connections at the target host. The host can become so bogged down with these bogus connections that it stops accepting legitimate connections.
+
+## The Bad Guys Can Sniff Packets
+
+>Always accept the possibility that someone may be recording copies of your packets. Best defense against packet sniffing is **cryptography**.
+
+WiFi or wireless internet provides convenient but is vulnerable. Someone might place a passive receiver in the vicinity of the wireless transmitter, that receiver can obtain a copy of every packet that is transmitted!. 
+
+A passive receiver that records a copy of every packet that flies by is called a **packet sniffer**.
+
+## The Bad Guys Can Masquerade as Someone You Trust
+
+The ability to inject packets into the Internet with a false source address is known as **IP spoofing**, and is but one of many ways in which one user can masquerade as another user.
+
+To solve this problem, we will need *end-point authentication*, that is, a mechanism that will allow us to determine with certainty if a message originates from where we think it does.
+
+---
+
