@@ -31,3 +31,13 @@ Each object of the tree is a node. DOM represents current page content.
 
 >Unlike other elements, `divs` and `spans` give no particular meaning to their content. They are just generic boxes that can contain anything.
 
+## Flexbox
+
+`flex-basis` sets the initial size of a flex item, so any sort of flex-growing or flex-shrinking starts from that baseline size.
+
+### Axis
+
+Main axis and cross axis. Direction of these axes changes when you change `flex-direction`.
+- `flex-direction: row;` - puts the main axis horizontal (left to right)
+- `flex-direction: column` - puts the main axis vertical (top to bottom)
+
