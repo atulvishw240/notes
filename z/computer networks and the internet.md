@@ -328,7 +328,7 @@ queue is very bit (can hold essentially an infinite number of bits)
 ==Traffic intensity = La / R ==, If :
 - La / R > 1 then queue will increase without bound and the queuing delay will approach infinity
 - La / R <= 1 then nature of traffic (bursts or periodic) impacts the queuing delay
-![[average-queuing-delay-vs-traffic-intensity.png]]
+![[attachments/average-queuing-delay-vs-traffic-intensity.png]]
 
 ### Packet Loss
 
