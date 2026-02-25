@@ -25,4 +25,28 @@ RandomGenerator generator = RandomGenerator.getDefault();
 java signed integer types - byte, short, int, long
 floating point types - float, double
 
+>[!note]
+>Use `BigIntegerl` if you want integers greater than `long`.
+>Use `BigDecimal` if you want to perform precise calculations, without rounding errors.
+
+The name of a variable, method, or class is called an _identifier_. You cannot use spaces or symbols in identifiers. Finally, you cannot use keywords.
+
+>[!tip]
+>It is considered good style to declare a variable as late as possible, just before you need it for the first time.
+
+>[!note] The system class declares a constant
+>```java
+>public static final PrintStream out
+>```
+>that you can use anywhere as `System.out`. This is one of the few examples of a constant that is not written in uppercase.
+
+>[!bug] Always be careful using `%` with potentially negative operands.
+
+>[!note] 
+>`++n` and `n++` both increase the value of n by 1 but they have different values when used inside an expression. For example,
+>```java
+>int n = 5;
+>IO.println(n++); // 5, yields the value before the increment
+>IO.println(++n); // 7, yields the value after the increment
+>```
 
