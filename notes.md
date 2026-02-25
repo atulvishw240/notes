@@ -10,3 +10,5 @@
 - [[computer networking]]
 - [[english]]
 - [[enough-command-line-to-be-dangerous]]
+- [[core-java-for-the-impatient]]
+- 
