@@ -50,3 +50,26 @@ The name of a variable, method, or class is called an _identifier_. You cannot u
 >IO.println(++n); // 7, yields the value after the increment
 >```
 
+Never use the `==` operator to compare strings. The comparison
+
+```java
+location == "World" // Don’t do that!
+```
+
+returns `true` only if `location` and `"World"` are _the same object in memory_. In the virtual machine, there is only one instance of each literal string, so `"World" == "World"` will be `true`. But if `location` was computed, for example, as
+
+String location = greeting.substring(7, 12);
+
+then the result is placed into a separate `String` object, and the comparison `location == "World"` will return `false`!
+
+
+>[!note]
+>in Java, the `String` class is _immutable_. That is, none of the `String` methods modify the string on which they operate. For example,
+>```java
+>greeting.toUpperCase()
+>```
+>returns a _new_ string `"HELLO, WORLD!"` without changing `greeting`.
+
+
+>`CharacterSequence` is a supertype of `String`, `StringBuilder`, and other sequence of characters.
+
