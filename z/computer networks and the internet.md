@@ -247,8 +247,7 @@ which is a meeting point where multiple ISPs can peer together. An IXP is typica
 **Network Structure 5**
 add **content-provider networks** to Network Structure 4. Content provider network example: Google.
 
-Google private network attempts to “bypass” the upper tiers of the Internet by peering (settlement free) with lower-tier ISPs, either by directly connecting with them or by connecting
-with them at IXPs.
+Google private network attempts to “bypass” the upper tiers of the Internet by peering (settlement free) with lower-tier ISPs, either by directly connecting with them or by connecting with them at IXPs.
 
 However, because many access ISPs can still only be reached by transiting through tier-1 networks, the Google network also connects to tier-1 ISPs, and pays those ISPs for the traffic it exchanges with them. By creating its own network, a content provider not only reduces its payments to upper-tier ISPs, but also has greater control of how its services are ultimately delivered to end users.
 
@@ -436,8 +435,7 @@ At each layer, a packet has two types of fields:
 
 Much of the malware out there today is **self-replicating**:  once it infects one host, from that host it seeks entry into other hosts over the Internet.
 
-Once malware infects our device it can do all kinds of devious things, including deleting our files and installing spyware that collects our private information. Our compromised host may also be enrolled in a network of thousands of similarly compromised devices, collectively known as a **botnet**, which the bad guys control and leverage for spam
-e-mail distribution or distributed denial-of-service attacks against targeted hosts.
+Once malware infects our device it can do all kinds of devious things, including deleting our files and installing spyware that collects our private information. Our compromised host may also be enrolled in a network of thousands of similarly compromised devices, collectively known as a **botnet**, which the bad guys control and leverage for spam e-mail distribution or distributed denial-of-service attacks against targeted hosts.
 
 ## The Bad Guys Can Attack Servers and Network Infrastructure
 
@@ -451,7 +449,7 @@ A DoS attack renders a network, host, or other piece of infrastructure unusable 
 
 >Always accept the possibility that someone may be recording copies of your packets. Best defense against packet sniffing is **cryptography**.
 
-WiFi or wireless internet provides convenient but is vulnerable. Someone might place a passive receiver in the vicinity of the wireless transmitter, that receiver can obtain a copy of every packet that is transmitted!. 
+WiFi or wireless internet provides convenience but is vulnerable. Someone might place a passive receiver in the vicinity of the wireless transmitter, that receiver can obtain a copy of every packet that is transmitted!. 
 
 A passive receiver that records a copy of every packet that flies by is called a **packet sniffer**.
 
