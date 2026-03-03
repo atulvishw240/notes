@@ -147,7 +147,24 @@ the Web and its protocols serve as a platform for YouTube, Web-based e-mail (suc
 
 HTTP defines how Web clients request Web pages from Web servers and how servers transfer Web pages to clients.
 
-A **Web page** (also called a document) consists of objects. An object is simply a file—such as an HTML file, a JPEG image, a Javascrpt file, a CCS style sheet file, or a video clip—that is addressable by a single URL.
+A **Web page** (also called a document) consists of objects. An **object** is simply a file—such as an HTML file, a JPEG image, a Javascrpt file, a CCS style sheet file, or a video clip—that is addressable by a single URL.
 
  For example, if a Web page contains HTML text and five JPEG images, then the Web page has six objects.
+![[http-request-response-behavior.png]]
+
+When a user requests a Web page (for example, clicks on a hyperlink), the browser sends HTTP request messages for the objects in the page to the server. The server receives the requests and responds with HTTP response messages that contain the objects.
+
+>HTTP uses TCP as its underlying transport protocol.
+
+**Socket-interface** is the door between the client/server process and the TCP connection.
+
+It is important to note that the server sends requested files to clients without storing any state information about the client.  Because an HTTP server maintains no information about the clients, HTTP is said to be a **stateless protocol**.
+
+## 2.2.2 Non-Persistent and Persistent Connections
+
+When this client-server interaction is taking place over TCP, the application developer needs to make an important decision—should each request/response pair be sent over a *separate* TCP connection, or should all of the requests and their corresponding responses be sent over the *same* TCP connection? In the former approach, the application is said to use **non-persistent connections**; and in the latter approach, **persistent connections**. 
+
+>HTTP uses **persistent connections** in its default mode
+
+### HTTP with Non-Persistent Connections
 

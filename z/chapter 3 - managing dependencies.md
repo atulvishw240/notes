@@ -76,3 +76,12 @@ Now, `gear_inches` can depend on a method sent to `self`. Earlier, `gear_inches`
 
 The classes in your method should depend on code that you own; use a wrapping method to isolate external dependencies.
 
+```ruby
+# When Gear is part of an external interface
+module Someframework
+  class Gear
+    attr_reader :chainring, :cog, :wheel
+    def initialize(chainring, cog, wheel)
+      
+
+```
