@@ -20,4 +20,8 @@ theme = 'LoveIt'
 
 8. Now run `hugo server` from the `name-of-your-site` to preview our site locally.
 
-9. To create a new posts
+9. To create a new posts run `hugo new posts/mypost.md` from `name-of-your-site` directory
+
+10. `atulvishw240.github.io` is the production repo. The repo where we deploy from. Now we will add this as a submodule to our blog and this will allow it to store the static assets (css, index.html, etc). This is a good way to organize our code.
+
+11. Delete public folder first with `rm -rf public/`.  Run `git submodule add -b main <url of atulvishw240.github.io> public`.
