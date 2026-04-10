@@ -17,7 +17,7 @@ Designs that anticipate specific future requirements almost always end badly. Pr
 
 ## The Tools of Design
 
-Design is not the act of following a fixed set of rules, it's a journey along a branching path wherein earlier choices close off some options and open access to others. During design, you wander through a maze of requirements where every juncture represents a decision point that has consequences for the future.
+Design is not the act of following a fixed set of rules, it's a journey along a branching path wherein earlier choices close off some options and open access to others.
 
 ## When to Design
 

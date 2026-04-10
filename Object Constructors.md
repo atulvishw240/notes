@@ -1,4 +1,5 @@
 
+A constructor function is just a regular function. It becomes a constructor when it is called on by an instance with the `new` keyword. We capitalize the first letter of a constructor by convention.
 ```js
 function Player(name, marker) {
   if (!new.target) {
@@ -19,7 +20,7 @@ The `new` Operator creates a new Object, makes `this` keyword inside the functio
 
 ## The prototype
 
-All objects in JavaScript have a **prototype**, otherwise referred to as its `[[Prototype]]` (`[[]]` indicates that its an internal property). The `[[Prototype]]` is another object that the original object *inherits* from.
+All objects in JavaScript have a **prototype**, otherwise referred to as its `[[Prototype]]` (`[[]]` indicates that its an internal property). The `[[Prototype]]` is another object that the original object *inherits* from. It is important that every object in JavaScript has a `[[Prototype]]` as it creates a way for any two or more objects to be linked.
 
 ```js
 function Player(name, marker) {
@@ -64,6 +65,10 @@ player1.sayName == player2.sayName; // true
 ```
 
 You can check an object's `[[Prototype]]` by using the `Object.getPrototypeOf()` function on the object.
+
+>The `constructor` property returns the constructor function of an object.
+
+
 >[!question] How JS internally executes `new Player()`?
 
 **Constructor**
@@ -138,4 +143,7 @@ p1 = {
 
 ---
 
-## O
+## Object.getPrototypeOf() vs .prototype
+
+`.prototype` is a property of functions that determines what a new object instance's `[[Prototype]]` will be set to when the function is called with `new`. 
+

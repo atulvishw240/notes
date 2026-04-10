@@ -46,7 +46,7 @@ Example:
 ```ruby
 def gear_inches
   #... A few lines of scary math
-  foo = some_intermediate_result * wheel diameter
+  foo = some_intermediate_result * wheel.diameter
   #... More lines of scary math
 end
 ```
@@ -82,6 +82,33 @@ module Someframework
   class Gear
     attr_reader :chainring, :cog, :wheel
     def initialize(chainring, cog, wheel)
-      
+    @chainring = chainring
+    @cog = cog
+    @wheel = wheel
+    end
+    #...
+    end
+end
 
+# Wrap the interface to protect yourself from changes
+module GearWrapper
+  def self.gear(chainring:, cog:, wheel:)
+    SomeFramework::Gear.new(chainring, cog, wheel)
+end
+end
+
+# Now you can create a new Gear using keyword arguments
+puts GearWrapper.gear(
+  chainring: 52,
+  cog: 11,
+  wheel: Wheel.new(26, 1.5)).gear_inches
+# => 137.0909
 ```
+## Managing Dependency Direction
+
+Dependencies always have a direction.
+### Reversing Dependencies
+
+`Wheel` could instead depend on `Gear` or `ratio`.
+
+

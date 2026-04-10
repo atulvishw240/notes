@@ -5,7 +5,7 @@ The classes you create will affect how you think about your application forever.
 
 Despite the importance of correctly grouping methods into classes, at this early stage of your project you cannot possibly get it right.
 
->Design is the art of preserving changeability than it is the act of achieving perfection.
+>Design is more the art of preserving changeability than it is the act of achieving perfection.
 
 ## Organizing Code to Allow for Easy Changes
 
