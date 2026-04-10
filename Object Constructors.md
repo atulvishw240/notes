@@ -63,7 +63,7 @@ So each player object will have a link (`[[Prototype]]`) from where it can acces
 player1.sayName == player2.sayName; // true
 ```
 
-
+You can check an object's `[[Prototype]]` by using the `Object.getPrototypeOf()` function on the object.
 >[!question] How JS internally executes `new Player()`?
 
 **Constructor**
@@ -83,3 +83,56 @@ const p1 = new Player("Gaurav", "X");
 ```
 
 JS internally perform **4 exact steps**:
+1. Create a blank object
+```js
+let obj = {};
+```
+
+2. Link it to `Player.prototype`
+```js
+obj.[[Prototype]] = Player.prototype
+```
+Now: `obj => Player.prototype => Object.prototype => null`
+
+3. Call the constructor with `this = obj`
+```js
+Player.call(obj, "Gaurav", "X");
+```
+Now your function runs like:
+```js
+this.name = "Gaurav";
+this.marker = "X";
+this.sayName = function() {
+	console.log(this.name);
+};
+```
+So `obj` becomes:
+```js
+obj = {
+	name: "Gaurav",
+	marker: "X",
+	sayName: function() {
+		console.log(this.name);
+	}
+}
+```
+
+4. return the object
+```js
+return obj;
+```
+So:
+```js
+const p1 = obj;
+```
+
+```js
+p1 = {
+	name: "Gaurav",
+	marker: "X",
+	sayName: function() {...}
+}
+
+// p1 -> Player.prototype => Object.prototype => null
+```
+
