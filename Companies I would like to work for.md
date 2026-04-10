@@ -1,6 +1,0 @@
-
-- Appwrite
-- Gitlab
-- Buffer
-- Canonical
-- 
