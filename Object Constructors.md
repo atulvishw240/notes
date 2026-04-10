@@ -136,3 +136,6 @@ p1 = {
 // p1 -> Player.prototype => Object.prototype => null
 ```
 
+---
+
+## O
