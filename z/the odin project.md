@@ -1,4 +1,4 @@
 - [[foundations]]
 - [[databases]]
-- [[intermediate-html-and-css]]
+- [[JavaScript]]
 - 
