@@ -5,5 +5,9 @@ JavaScript classes are syntactic sugar for **prototypes** and object **construct
 >In Object Oriented Programming, there is state and behavior. Behavior leads to state change. When an object goes into an invalid stage, that's called a bug. In this way, an object can be thought of as a Finite state machine and finite machines can have many variations. Its also possible to have behaviors without any state, that's why we have **Service Objects**.
 
 In JS, a class is a kind of function. Here's what the `class User {...}` construct really does:
-1. Creates a function named **User**, that becomes the result of the class declaration. The function code is taken from the **constructor** method
+1. Creates a function named **User**, that becomes the result of the class declaration. The function code is taken from the **constructor** method (assumed empty if we don't write such method).
+2. Stores class methods, such as `sayHi`, in `User.prototype`.
+
+![[attachments/js-inheritance.png]]
+
 
