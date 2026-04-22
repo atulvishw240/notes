@@ -11,3 +11,6 @@ In JS, a class is a kind of function. Here's what the `class User {...}` constru
 ![[attachments/js-inheritance.png]]
 
 
+>[!question] Why would I want to hide as many things from the client as possible?
+
+Because if I hide it then client won't depend on it and as a result I can change that later. The client only knows the interface and I can control the implementation however I want. Ex: `sort()` method which was earlier 4 lines but slow is now 50 lines but fast, as it considers various scenarios and optimizations for those scenarios. The good thing is client can't tell and doesn't have to.
