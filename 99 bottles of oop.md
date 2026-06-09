@@ -1,0 +1,3 @@
+
+- [[rediscovering simplicity]]
+- 
