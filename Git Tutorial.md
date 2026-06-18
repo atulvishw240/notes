@@ -24,5 +24,19 @@ To rebase back to the root `git rebase -i --root`.
 
 >to keep our history clean. When feature is in development this history is important but after its merged into the main branch clean up history with squash.
 
+## git reset --soft
+
+It is a more powerful **amend**, as instead of just going back one commit you can go back several commits and combine all the changes included in them into one commit.
+
+## git reset --hard
+
+It is a destructive command. It will do all what `git reset --soft` does + it will make working directory look exactly same as the staging area.
+
+## Branches are pointers
+
+**A branch is actually a pointer to a single commit!**. Each commit is also a pointer that points to the commit that came before it!.
+
+>HEAD is a special pointer for keeping track of the branch you're currently on. It points to our most recent commit in the current branch.
+
 
 
