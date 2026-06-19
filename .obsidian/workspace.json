@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git - Rebasing.md",
+                "file": "Battleship.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git - Rebasing"
+              "title": "Battleship"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "battle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -240,8 +240,8 @@
   },
   "active": "1f7c7535b7af4453",
   "lastOpenFiles": [
-    "Git - Branching and Merging.md",
     "Git - Rebasing.md",
+    "Git - Branching and Merging.md",
     "Git Tutorial.md",
     "z/Git.md",
     "rediscovering simplicity.md",
