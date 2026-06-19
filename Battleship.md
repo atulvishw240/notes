@@ -41,7 +41,7 @@ board.receiveAttack(coordinates)
 - [x] Each player has a name and its own gameboard
 
 **DisplayController** (manage actions that happen in the DOM)
-- [ ] You can begin crafting your User Interface
+- [x] You can begin crafting your User Interface
 - [ ] Set up a new game by creating Players. For now just populate each player's Gameboard with pre-determined coordinates.
 - [ ] HTML implementation should display both player's boards and render them using information from the **GameBoard**
 - [ ] For attacks, let user click on a coordinate in the enemy Gameboard. Send the user input to methods on your objects, and re-render the boards to display the new information.
