@@ -1,14 +1,4 @@
 
-- Should ship keep track of their position or let the board handle that?
-- I think ship shouldn't keep track of its position and let the board handle that because tracking which ship is where should be Board's job and we will display ships on Board, so board should know where ships are placed.
-
-- [x] Gameboards should be able to place ships at specific coordinates by calling the ship factory or class.
-
-```js
-board.place(ship, coordinates, axis)
-```
-
----
 `receiveAttack` function:
 - input - coordinates
 - determines whether or not the attack hit a ship
@@ -48,6 +38,6 @@ board.receiveAttack(coordinates)
 	- [ ] Players take alternate turns. Keep track of player's turn here in this module
 	- [ ] Game played against computer, so make sure computer makes a random legal move. (don't make same move twice)
 - [ ] Game ends when all ships of one player's has been sunk
-- [ ] Implement a system that allow players to place their ships by typing coordinates for each ship or a button to cycle through random placements.
+- [ ] Implement a system that allow players to place their ships by a button to cycle through random placements.
 
 
