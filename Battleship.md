@@ -41,3 +41,16 @@ board.receiveAttack(coordinates)
 - [ ] Implement a system that allow players to place their ships by a button to cycle through random placements.
 
 
+---
+
+## Classes to Create
+
+- [x] Ship
+- [ ] Board
+- [ ] Game
+- [ ] Coordinate
+- [ ] DisplayController
+- [ ] Fleet
+- [ ] HumanPlayer
+- [ ] ComputerPlayer
+
