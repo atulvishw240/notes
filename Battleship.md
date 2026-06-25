@@ -50,9 +50,5 @@ board.receiveAttack(coordinates)
 - [ ] Game
 - [x] Coordinate
 - [ ] DisplayController
-- [ ] Fleet
-- [ ] HumanPlayer
-- [ ] ComputerPlayer
-
 
 ---
