@@ -52,3 +52,10 @@ board.receiveAttack(coordinates)
 - [ ] DisplayController
 
 ---
+
+UI will be rendered with Board state. Flow of attack
+- Player1 attacks Player2
+- Board state changes
+- Update the UI with board state (Game loop)
+
+0 for nothing, 1 for hit and -1 for miss. Misses need to be tracked so 
