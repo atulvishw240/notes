@@ -46,9 +46,9 @@ board.receiveAttack(coordinates)
 ## Classes to Create
 
 - [x] Ship
-- [ ] Board
+- [x] Board
 - [ ] Game
-- [ ] Coordinate
+- [x] Coordinate
 - [ ] DisplayController
 - [ ] Fleet
 - [ ] HumanPlayer

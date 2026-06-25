@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,10 +251,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "534a29f197f6cc72",
+  "active": "1f7c7535b7af4453",
   "lastOpenFiles": [
-    "Battleship.md",
     "Things I suck at in Programming.md",
+    "Battleship.md",
     "Fleet.md",
     "Reading List - Self.md",
     "Git - Rebasing.md",
