@@ -1,0 +1,12 @@
+
+- How to Argue and Win Every Time by Gerry Spence
+- Principles Ray Dalio
+- Feeling Good
+- Thinking, Fast and Slow
+- Attached
+- Never Split the Difference
+- The courage to be disliked
+- The six pillars of self esteem
+- The Demon-Haunted World
+- The Happiness Trap
+- 
