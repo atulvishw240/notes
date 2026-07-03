@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "civ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -236,7 +237,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f7c7535b7af4453",
+  "active": "ff9a4143ca2a32b0",
   "lastOpenFiles": [
     "Things I suck at in Programming.md",
     "Battleship.md",
