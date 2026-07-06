@@ -222,14 +222,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff9a4143ca2a32b0",
+  "active": "b8338e9379dfdab7",
   "lastOpenFiles": [
+    "React.md",
+    "Git - Branching and Merging.md",
     "Battleship.md",
     "Things I suck at in Programming.md",
     "Fleet.md",
     "Reading List - Self.md",
     "Git - Rebasing.md",
-    "Git - Branching and Merging.md",
     "Git Tutorial.md",
     "z/Git.md",
     "rediscovering simplicity.md",
@@ -255,7 +256,6 @@
     "z/critical thinking.md",
     "z/unit1 - introduction and meaning analysis.md",
     "z/meaning analysis.md",
-    "z/what is critical thinking.md",
     "attachments/static-array.png",
     "attachments/array.png",
     "attachments/amortized-time-complexity.png",
