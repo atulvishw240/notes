@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git - Branching and Merging.md",
+                "file": "Git Tutorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git - Branching and Merging"
+              "title": "Git Tutorial"
+            }
+          },
+          {
+            "id": "098995cb87d94642",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction to JavaScript.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction to JavaScript"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "10up",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,12 +89,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -222,19 +237,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b8338e9379dfdab7",
+  "active": "098995cb87d94642",
   "lastOpenFiles": [
-    "React.md",
+    "JavaScript.md",
+    "Introduction to JavaScript.md",
+    "Git Tutorial.md",
+    "Pasted image 20260527105656.png",
     "Git - Branching and Merging.md",
+    "React.md",
     "Battleship.md",
     "Things I suck at in Programming.md",
     "Fleet.md",
     "Reading List - Self.md",
     "Git - Rebasing.md",
-    "Git Tutorial.md",
     "z/Git.md",
     "rediscovering simplicity.md",
-    "Pasted image 20260527105656.png",
     "99 bottles of oop.md",
     "notes.md",
     "tech talks.md",
@@ -254,8 +271,6 @@
     "introduction and meaning analysis.md",
     "critical thinking.md",
     "z/critical thinking.md",
-    "z/unit1 - introduction and meaning analysis.md",
-    "z/meaning analysis.md",
     "attachments/static-array.png",
     "attachments/array.png",
     "attachments/amortized-time-complexity.png",
