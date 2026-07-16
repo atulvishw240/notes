@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git Tutorial.md",
+                "file": "z/Array.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git Tutorial"
+              "title": "Array"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "books",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,12 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -224,28 +224,30 @@
   },
   "active": "b8338e9379dfdab7",
   "lastOpenFiles": [
+    "z/DSA.md",
+    "z/Array.md",
+    "notes.md",
+    "Battleship.md",
+    "Asynchronous JavaScript.md",
+    "Articles to write.md",
+    "99 bottles of oop.md",
+    "Git Tutorial.md",
     "JavaScript.md",
     "Types, Values, and Variables.md",
     "Introduction to JavaScript.md",
-    "Git Tutorial.md",
     "Pasted image 20260527105656.png",
     "Git - Branching and Merging.md",
     "React.md",
-    "Battleship.md",
     "Things I suck at in Programming.md",
     "Fleet.md",
     "Reading List - Self.md",
     "Git - Rebasing.md",
     "z/Git.md",
     "rediscovering simplicity.md",
-    "99 bottles of oop.md",
-    "notes.md",
     "tech talks.md",
     "Rails Conf 2013 The Magic Tricks of Testing by Sandi Metz.md",
     "Unit Testing in JavaScript.md",
-    "Articles to write.md",
     "Callbacks - What are they and Why they exist?.md",
-    "Asynchronous JavaScript.md",
     "Event Loop in JS.md",
     "Pasted image 20260527112255.png",
     "Pasted image 20260527112201.png",
@@ -253,9 +255,7 @@
     "Pasted image 20260527111226.png",
     "js-runtime.png",
     "z/Linked List.md",
-    "z/DSA.md",
     "introduction and meaning analysis.md",
-    "critical thinking.md",
     "attachments/static-array.png",
     "attachments/array.png",
     "attachments/amortized-time-complexity.png",
