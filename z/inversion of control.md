@@ -1,0 +1,1 @@
+Dependency injection is an application of inversion of control
