@@ -4,4 +4,5 @@
 - [[z/React Components]]
 - [[z/What is JSX]]
 - [[z/Passing Data Between Components]]
+- [[z/Rendering Techniques]]
 - 

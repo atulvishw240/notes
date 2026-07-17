@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/Passing Data Between Components.md",
+                "file": "z/Rendering Techniques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Passing Data Between Components"
+              "title": "Rendering Techniques"
             }
           }
         ]
@@ -225,15 +225,16 @@
   "active": "b8338e9379dfdab7",
   "lastOpenFiles": [
     "z/react.md",
-    "z/Passing Data Between Components.md",
-    "z/What is JSX.md",
+    "z/Rendering Techniques.md",
     "z/the odin project.md",
     "notes.md",
+    "z/DSA.md",
+    "z/Problems.md",
+    "z/Passing Data Between Components.md",
+    "z/What is JSX.md",
     "Callbacks - What are they and Why they exist?.md",
     "z/Linked List.md",
     "Battleship.md",
-    "z/DSA.md",
-    "z/Problems.md",
     "z/Stack.md",
     "z/React Components.md",
     "z/Setting Up A React Environment.md",
@@ -250,7 +251,6 @@
     "Introduction to JavaScript.md",
     "Pasted image 20260527105656.png",
     "Git - Branching and Merging.md",
-    "React.md",
     "Pasted image 20260527112255.png",
     "Pasted image 20260527112201.png",
     "Pasted image 20260527112015.png",
