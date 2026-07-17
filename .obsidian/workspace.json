@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/Problems.md",
+                "file": "z/Linked List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problems"
+              "title": "Linked List"
             }
           }
         ]
@@ -225,8 +225,9 @@
   "active": "b8338e9379dfdab7",
   "lastOpenFiles": [
     "z/DSA.md",
-    "z/Stack.md",
     "notes.md",
+    "z/Problems.md",
+    "z/Stack.md",
     "z/What is JSX.md",
     "z/react.md",
     "z/React Components.md",
@@ -250,7 +251,6 @@
     "Things I suck at in Programming.md",
     "Fleet.md",
     "Reading List - Self.md",
-    "Git - Rebasing.md",
     "Pasted image 20260527112255.png",
     "Pasted image 20260527112201.png",
     "Pasted image 20260527112015.png",
