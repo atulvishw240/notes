@@ -31,3 +31,15 @@ export default function App() {
 
 You can pass any JavaScript value through props, including objects, arrays, and functions.
 
+You can nest your components like regular html elements.
+```html
+<Card>
+  <Avatar />
+</Card>
+```
+
+
+>props are **immutable**. When a component needs to change its props, it will have to "ask" its parent component to pass it *different props* - a new object!. 
+
+
+
