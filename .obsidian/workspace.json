@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/Linked List.md",
+                "file": "z/Passing Data Between Components.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linked List"
+              "title": "Passing Data Between Components"
             }
           }
         ]
@@ -224,20 +224,23 @@
   },
   "active": "b8338e9379dfdab7",
   "lastOpenFiles": [
-    "z/DSA.md",
+    "z/react.md",
+    "z/Passing Data Between Components.md",
+    "z/What is JSX.md",
+    "z/the odin project.md",
     "notes.md",
+    "Callbacks - What are they and Why they exist?.md",
+    "z/Linked List.md",
+    "Battleship.md",
+    "z/DSA.md",
     "z/Problems.md",
     "z/Stack.md",
-    "z/What is JSX.md",
-    "z/react.md",
     "z/React Components.md",
     "z/Setting Up A React Environment.md",
     "Untitled.md",
     "z/Introduction to React.md",
     "z/inversion of control.md",
-    "z/the odin project.md",
     "z/Array.md",
-    "Battleship.md",
     "Asynchronous JavaScript.md",
     "Articles to write.md",
     "99 bottles of oop.md",
@@ -248,9 +251,6 @@
     "Pasted image 20260527105656.png",
     "Git - Branching and Merging.md",
     "React.md",
-    "Things I suck at in Programming.md",
-    "Fleet.md",
-    "Reading List - Self.md",
     "Pasted image 20260527112255.png",
     "Pasted image 20260527112201.png",
     "Pasted image 20260527112015.png",

@@ -4,3 +4,9 @@ JSX is a syntax extension for JavaScript that lets you write HTML-like markup in
 >JSX compiles down to plain JavaScript objects.
 
 React components group rendering logic together with markup because they are related.
+
+**Rules of JSX**
+1. Return a single root element
+2. Close all tags
+3. camel case for most of the things
+
