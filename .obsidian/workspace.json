@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/What is JSX.md",
+                "file": "z/Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is JSX"
+              "title": "Problems"
             }
           }
         ]
@@ -224,17 +224,18 @@
   },
   "active": "b8338e9379dfdab7",
   "lastOpenFiles": [
-    "z/react.md",
+    "z/DSA.md",
+    "z/Stack.md",
+    "notes.md",
     "z/What is JSX.md",
+    "z/react.md",
     "z/React Components.md",
     "z/Setting Up A React Environment.md",
     "Untitled.md",
     "z/Introduction to React.md",
     "z/inversion of control.md",
     "z/the odin project.md",
-    "notes.md",
     "z/Array.md",
-    "z/DSA.md",
     "Battleship.md",
     "Asynchronous JavaScript.md",
     "Articles to write.md",
@@ -250,7 +251,6 @@
     "Fleet.md",
     "Reading List - Self.md",
     "Git - Rebasing.md",
-    "z/Git.md",
     "Pasted image 20260527112255.png",
     "Pasted image 20260527112201.png",
     "Pasted image 20260527112015.png",
