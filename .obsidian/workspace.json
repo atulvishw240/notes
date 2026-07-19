@@ -11,10 +11,14 @@
             "id": "c8eb66358d1d610c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "z/Problems.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Problems"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -219,11 +224,11 @@
   },
   "active": "c8eb66358d1d610c",
   "lastOpenFiles": [
+    "z/DSA.md",
+    "notes.md",
     "z/Rendering Techniques.md",
     "z/react.md",
     "z/the odin project.md",
-    "notes.md",
-    "z/DSA.md",
     "z/Problems.md",
     "z/Passing Data Between Components.md",
     "z/What is JSX.md",
