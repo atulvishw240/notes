@@ -23,3 +23,6 @@ export default function App() {
 }
 ```
 
+>[!warning] Numbers with Logical AND (&&) - a common pitfall
+>When using `&&` for conditional rendering, don't put numbers on the left side.
+
