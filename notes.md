@@ -12,6 +12,4 @@
 - [[english]]
 - [[enough-command-line-to-be-dangerous]]
 - [[z/Python]]
-
 - [[tech talks]]
-- 

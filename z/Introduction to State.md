@@ -15,13 +15,8 @@ It provides two things:
 >[!question] How does state work in React?
 >When a component's state or props change, React runs your component function again from the beginning to figure out what should be displayed based on the freshly-set state and props. All the calculated changes are then applied to the DOM (committed). That is, the entire component is recreated, in a sense, but this time the latest state value will be returned from `useState`. This process is called **re-rendering**.
 
-
-**React reconcilation algorithm**
-The process of rerendering generates a new virtual DOM (Document Object Model) tree. The virtual DOM is a lightweight representation of the actual DOM that React uses to keep track of the current state of the UI. React then compares the new virtual DOM tree to the previous one and calculates the minimal set of changes needed to update the actual DOM. This is the reconciliation algorithm.
-
----
-
-## Render and Commit
+## The steps involved in displaying a component on screen
+### Render and Commit
 
 1. **Triggering** a render (delivering the guest’s order to the kitchen)
 2. **Rendering** the component (preparing the order in the kitchen)
@@ -38,3 +33,6 @@ After rendering (calling) your components, React will modify the DOM.
 - **For re-renders,** React will apply the minimal necessary operations (calculated while rendering!) to make the DOM match the latest rendering output.
 
 
+## React reconcilation algorithm
+
+The process of rerendering generates a new virtual DOM (Document Object Model) tree. The virtual DOM is a lightweight representation of the actual DOM that React uses to keep track of the current state of the UI. React then compares the new virtual DOM tree to the previous one and calculates the minimal set of changes needed to update the actual DOM. This is the reconciliation algorithm.
