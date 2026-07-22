@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/More on State.md",
+                "file": "Queue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "More on State"
+              "title": "Queue"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "companie",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,12 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -224,16 +224,17 @@
   },
   "active": "245d45ea6eea27cb",
   "lastOpenFiles": [
-    "z/react.md",
+    "z/DSA.md",
+    "Queue.md",
+    "z/Problems.md",
+    "notes.md",
     "z/More on State.md",
+    "z/react.md",
     "z/Introduction to State.md",
     "React reconcilation algorithm.md",
     "z/the odin project.md",
-    "notes.md",
     "hook.md",
     "z/Rendering Techniques.md",
-    "z/Problems.md",
-    "z/DSA.md",
     "z/Passing Data Between Components.md",
     "z/What is JSX.md",
     "Callbacks - What are they and Why they exist?.md",
@@ -249,7 +250,6 @@
     "Asynchronous JavaScript.md",
     "Articles to write.md",
     "99 bottles of oop.md",
-    "Git Tutorial.md",
     "Pasted image 20260527105656.png",
     "Pasted image 20260527112255.png",
     "Pasted image 20260527112201.png",
