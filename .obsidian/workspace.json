@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Queue.md",
+                "file": "z/application layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Queue"
+              "title": "application layer"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -156,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Articles to write.md",
+                "file": "z/application layer.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,7 +185,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Articles to write"
+              "title": "Graph of application layer"
             }
           },
           {
@@ -202,11 +203,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 463.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -223,38 +224,38 @@
   },
   "active": "245d45ea6eea27cb",
   "lastOpenFiles": [
-    "z/DSA.md",
-    "Queue.md",
-    "z/Problems.md",
+    "z/computer networking.md",
+    "z/computer networks and the internet.md",
     "notes.md",
-    "z/More on State.md",
-    "z/react.md",
-    "z/Introduction to State.md",
-    "React reconcilation algorithm.md",
-    "z/the odin project.md",
-    "hook.md",
-    "z/Rendering Techniques.md",
-    "z/Passing Data Between Components.md",
-    "z/What is JSX.md",
-    "Callbacks - What are they and Why they exist?.md",
-    "z/Linked List.md",
-    "Battleship.md",
-    "z/Stack.md",
-    "z/React Components.md",
-    "z/Setting Up A React Environment.md",
-    "Untitled.md",
-    "z/Introduction to React.md",
-    "z/inversion of control.md",
-    "z/Array.md",
-    "Asynchronous JavaScript.md",
-    "Articles to write.md",
     "99 bottles of oop.md",
-    "Pasted image 20260527105656.png",
+    "Articles to write.md",
+    "Asynchronous JavaScript.md",
+    "Encapsulation.md",
+    "Callbacks - What are they and Why they exist?.md",
+    "Don't Understand.md",
+    "hook.md",
+    "Git Tutorial.md",
+    "Git - Rebasing.md",
+    "Git - Branching and Merging.md",
+    "Fleet.md",
+    "Chapter - 2 An Array of Sequences.md",
+    "Pasted image 20260527111226.png",
+    "Event Loop in JS.md",
+    "js-runtime.png",
     "Pasted image 20260527112255.png",
+    "Queue.md",
+    "Reading List - Self.md",
+    "npm for newbies.md",
+    "rediscovering simplicity.md",
+    "tech talks.md",
+    "Things I suck at in Programming.md",
+    "Unit Testing in JavaScript.md",
+    "Webpack.md",
+    "Project - Todo List.md",
+    "Pasted image 20260527105656.png",
+    "critical thinking.md",
     "Pasted image 20260527112201.png",
     "Pasted image 20260527112015.png",
-    "Pasted image 20260527111226.png",
-    "js-runtime.png",
     "attachments/static-array.png",
     "attachments/array.png",
     "attachments/amortized-time-complexity.png",

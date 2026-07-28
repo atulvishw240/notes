@@ -4,6 +4,8 @@ At the core of network application development is writing programs that run on d
 
 For example, in the Web application there are two distinct programs that communicate with each other: the browser program running in the user’s host  and the Web server program running in the Web server's host.
 
+You can't write application software for network-core devices, such as routers or link-layer switches because these devices they don't function at the network layer.
+
 ## 2.1.1 Network Application Architectures
 
 - Before coding, you should have a broad architectural plan for your application
