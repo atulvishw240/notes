@@ -4,7 +4,7 @@
 
 >React component functions accept a single argument, a `props` object.
 
-Usually you don't need the whole `props` object itself, so you destructure it into individual props.
+Usually you don't need the whole `props` object itself, so you de-structure it into individual props.
 
 ```js
 function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick }) {
