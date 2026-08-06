@@ -1,5 +1,5 @@
 - [[foundations]]
-- [[databases]]
+- [[intro to databases]]
 - [[z/JavaScript]]
 - [[z/react]]
 - 

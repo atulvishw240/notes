@@ -9,6 +9,7 @@
 - [[well grounded rubyist]]
 - [[critical thinking]]
 - [[computer networking]]
+- [[databases]]
 - [[english]]
 - [[enough-command-line-to-be-dangerous]]
 - [[z/Python]]
