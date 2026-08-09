@@ -3,7 +3,7 @@
 - [[Array]]
 - [[Stack]]
 - [[Linked List]]
--  [[Queue]]
+-  [[z/Queue]]
 - 
 
 ---
