@@ -25,9 +25,7 @@ Internet can be described as :
 
 ## 1.1.3 What is a protocol
 
-All activity in the internet that involves two or more communicating remote entities is governed by a protocol.
-
->A **protocol** defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.
+A **protocol** defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.
 
 # 1.2 The Network Edge
 
@@ -82,7 +80,7 @@ In PON architecture, all packets sent from OLT to the splitter are replicated at
 
 ### Ethernet
 
-Ethernet is by far the most prevaent access technology in corporate, university, and home networks. Ethernet users use twisted-pair copper wire to connect to an Ethernet switch.
+Ethernet is by far the most prevalent access technology in corporate, university, and home networks. Ethernet users use twisted-pair copper wire to connect to an Ethernet switch.
 ![[ethernet-internet-access.png]]
 
 ### WiFi
@@ -173,9 +171,6 @@ For above diagram, N = 2 so 2L / R is the time taken to transmit 1 packet.
 ![[packet-switching.png]]
 
 ### Forwarding Tables and Routing Protocols
-
->[!question] How does the router determine which link it should forward the packet onto?
->Router uses a packet's destination address to index a forwarding table and determine the appropriate outbound link.
 
 - In the Internet, every end system has an address called an IP address (has a hierarchical structure like postal address)
 - When a source end system wants to send a packet to a destination end system, the source includes the destination’s IP address in the packet’s header
