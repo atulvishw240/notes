@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5,
-    "collapsed": true
+    "width": 221.5
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -226,10 +225,11 @@
   },
   "active": "f4ffae671be2bdf5",
   "lastOpenFiles": [
+    "Untitled.md",
+    "z/computer networks and the internet.md",
     "z/computer networking.md",
     "notes.md",
     "z/application layer.md",
-    "z/computer networks and the internet.md",
     "z/Setting Up A React Environment.md",
     "z/react.md",
     "z/Introduction to React.md",
@@ -251,7 +251,6 @@
     "z/What is JSX.md",
     "z/React Components.md",
     "99 bottles of oop.md",
-    "Asynchronous JavaScript.md",
     "Pasted image 20260527111226.png",
     "js-runtime.png",
     "Pasted image 20260527112255.png",
