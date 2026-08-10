@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/React Components.md",
+                "file": "z/react.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React Components"
+              "title": "react"
             }
           },
           {
@@ -240,12 +240,15 @@
   },
   "active": "f4ffae671be2bdf5",
   "lastOpenFiles": [
+    "z/Passing Data Between Components.md",
     "z/react.md",
+    "z/What is JSX.md",
+    "z/React Components.md",
+    "z/the odin project.md",
+    "notes.md",
     "z/Setting Up A React Environment.md",
     "Articles.md",
     "z/Introduction to React.md",
-    "z/the odin project.md",
-    "notes.md",
     "z/computer networks and the internet.md",
     "Untitled.md",
     "z/computer networking.md",
@@ -263,9 +266,6 @@
     "z/More on State.md",
     "z/Introduction to State.md",
     "z/Rendering Techniques.md",
-    "z/Passing Data Between Components.md",
-    "z/What is JSX.md",
-    "z/React Components.md",
     "Pasted image 20260527111226.png",
     "js-runtime.png",
     "Pasted image 20260527112255.png",
