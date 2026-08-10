@@ -442,7 +442,7 @@ A DoS attack renders a network, host, or other piece of infrastructure unusable 
 
 ## The Bad Guys Can Sniff Packets
 
->Always accept the possibility that someone may be recording copies of your packets. Best defense against packet sniffing is **cryptography**.
+>Always accept the possibility that someone may be recording copies of your packets. Best defence against packet sniffing is **cryptography**.
 
 WiFi or wireless internet provides convenience but is vulnerable. Someone might place a passive receiver in the vicinity of the wireless transmitter, that receiver can obtain a copy of every packet that is transmitted!. 
 
