@@ -44,3 +44,9 @@ Successful course participants will:
 27. Subtyping for records, functions, and objects
 28. Class-based subtyping
 29. Subtyping vs. parametric polymorphism; bounded polymorphism
+
+
+### Homework
+
+- 7 total, mostly programming
+- 
