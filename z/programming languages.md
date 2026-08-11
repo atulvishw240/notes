@@ -1,5 +1,7 @@
 
-- [[ml]]
+- [[z/ocaml]]
+- [[Unit 1 - OCaml Functions, Tuples, Lists and More]]
+- 
 
 ---
 ## [Syllabus](https://sites.google.com/cs.washington.edu/cse341spring2023/home/syllabus?authuser=0)
@@ -46,7 +48,3 @@ Successful course participants will:
 29. Subtyping vs. parametric polymorphism; bounded polymorphism
 
 
-### Homework
-
-- 7 total, mostly programming
-- 

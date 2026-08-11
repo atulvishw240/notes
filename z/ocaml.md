@@ -1,5 +1,4 @@
 
-- [[variable bindings and expressions]]
 - [[shadowing]]
 - [[function bindings]]
 - [[pairs and tuples]]
