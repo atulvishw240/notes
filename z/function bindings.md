@@ -1,7 +1,7 @@
 
 - **Syntax**: 
-```sml
-fun x0 (x1 : t1, ... , xn : tn) = e
+```ocaml
+fun x0 ((x1:tn),...,(xn:tn)) = e
 ```
 
 - **Evaluation**: A function is a value! (No evaluation yet, function body is evaluated when function is called)
