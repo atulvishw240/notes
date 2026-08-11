@@ -3,7 +3,7 @@ React says that `UI = f(state)`
 
 >**State** is a component's memory. It is local to a component instance on the screen. If you **render the same component twice, each copy will have completely isolated state!**
 
-To use state in React we use `useState` [[hook]]. 
+To use state in React we use `useState` [[z/hook]]. 
 
 ## useState hook
 
