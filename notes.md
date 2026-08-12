@@ -15,4 +15,4 @@
 - [[z/Python]]
 - [[tech talks]]
 - [[z/programming languages|programming languages]]
--
+- 
