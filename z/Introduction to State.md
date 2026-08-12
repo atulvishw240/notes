@@ -15,6 +15,12 @@ It provides two things:
 >[!question] How does state work in React?
 >When a component's state or props change, React runs your component function again from the beginning to figure out what should be displayed based on the freshly-set state and props. All the calculated changes are then applied to the DOM (committed). That is, the entire component is recreated, in a sense, but this time the latest state value will be returned from `useState`. This process is called **re-rendering**.
 
+State is not tied to a particular function call or a place in the code, but it’s “local” to the specific place on the screen. You rendered two `<Gallery />` components, so their state is stored separately.
+
+Unlike props, **state is fully private to the component declaring it.** The parent component can’t change it. This lets you add state to any component or remove it without impacting the rest of the components.
+
+---
+
 ## The steps involved in displaying a component on screen
 ### Render and Commit
 
@@ -31,7 +37,6 @@ After rendering (calling) your components, React will modify the DOM.
 
 - **For the initial render,** React will use the [`appendChild()`](https://developer.mozilla.org/docs/Web/API/Node/appendChild) DOM API to put all the DOM nodes it has created on screen.
 - **For re-renders,** React will apply the minimal necessary operations (calculated while rendering!) to make the DOM match the latest rendering output.
-
 
 ## React reconcilation algorithm
 
