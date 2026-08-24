@@ -243,3 +243,27 @@ Advantages of **web caches**:
 1. can substantially reduce the response time for a client request
 2. can substantially reduce traffic on an institution's access link to the internet. By reducing traffic, the institution does not have to upgrade bandwidth as quickly, thereby reducing costs.
 
+### The Conditional GET
+
+Although caching can reduce user-perceived response times, it introduces a new problem the object housed in the Web server may have been modified since the copy was cached at the client.
+
+Solution: **conditional GET**
+
+ An HTTP request message is a so-called conditional GET message if
+1. the request message uses the GET method and 
+2. the request message includes an `If-Modified-Since`: header line.
+
+## 2.2.6 HTTP/2
+
+>[!question] Why HTTP/2? What's the problem with HTTP/1.1?
+
+Recall that HTTP/1.1 uses persistent TCP connections, 
+
+## 2.3 Electronic Mail in the Internet
+
+Internet Mail system has three major components:
+- user agents (example Microsoft Outlook, Gmail, Apple Mail)
+- mail servers
+- Simple Mail Transfer Protocol (SMTP)
+
+
