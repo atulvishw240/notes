@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes.md",
+                "file": "z/application layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notes"
+              "title": "application layer"
             }
           }
         ]
@@ -76,12 +76,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -226,9 +226,15 @@
   },
   "active": "ad12781a5ad42bcb",
   "lastOpenFiles": [
-    "Reading List - Self.md",
+    "attachments/general-http-reponse-format.png",
+    "attachments/sample-http-response-method.png",
     "chatgpt programming tips, wisdom, etc.md",
+    "z/application layer.md",
+    "attachments/general-format-of-http-req-message.png",
+    "attachments/an-http-request-message.png",
+    "z/computer networking.md",
     "notes.md",
+    "Reading List - Self.md",
     "z/the odin project.md",
     "z/react.md",
     "z/Passing Data Between Components.md",
@@ -237,8 +243,6 @@
     "z/Setting Up A React Environment.md",
     "z/Introduction to React.md",
     "z/inversion of control.md",
-    "z/application layer.md",
-    "z/computer networking.md",
     "z/computer networks and the internet.md",
     "z/ocaml.md",
     "z/lists.md",
@@ -251,16 +255,11 @@
     "Lecture 1 - Intro to OCaml.md",
     "z/function bindings.md",
     "Unit 1 - OCaml Functions, Tuples, Lists and More.md",
-    "z/variable bindings and expressions.md",
     "Pasted image 20260527111226.png",
     "js-runtime.png",
     "Pasted image 20260527112255.png",
     "Pasted image 20260527105656.png",
     "Pasted image 20260527112201.png",
-    "Pasted image 20260527112015.png",
-    "attachments/static-array.png",
-    "attachments/array.png",
-    "attachments/amortized-time-complexity.png",
-    "attachments/average-queuing-delay-vs-traffic-intensity.png"
+    "Pasted image 20260527112015.png"
   ]
 }

@@ -170,3 +170,52 @@ When this client-server interaction is taking place over TCP, the application de
 
 ### HTTP with Non-Persistent Connections
 
+Each TCP connection is closed after the server sends the object - the connection does not persists for other objects.
+
+>[!note] Each non-persistent TCP connection transports exactly one request message and one response message.
+
+**Three way handshake** : the client sends a small TCP segment to the server, the server acknowledges and responds with a small TCP segment, and, finally, the client acknowledges back to the server.
+
+### HTTP with Persistent Connections
+
+With HTTP/1.1 persistent connections, the server leaves the TCP connection open after sending a response. Subsequent requests and responses between the same client and server can be sent over the same connection.
+
+These requests for objects can be back-to-back, without waiting for replies to pending requests (**pipelining**). When the server receives the back-to-back requests, it sends the objects back-to-back.
+
+>[!note] The default mode of HTTP uses persistent connections with pipelining. 
+
+## 2.2.3 HTTP Message Format
+
+### HTTP Request Message
+
+![[attachments/general-format-of-http-req-message.png]]
+
+![[attachments/an-http-request-message.png]]
+
+The first line is called **request line** and the subsequent lines are called **header lines**.
+
+If you use **POST** method, then the data will be sent via **entity body**.
+
+>[!question] Why do we need the host line? There's already a TCP connection in place to the host. Find the answer in section 2.2.5 (that line is required by the Web Proxy Caches)
+
+The HEAD method is similar to the GET method. When a server receives a request with the HEAD method, it responds with an HTTP message but it leaves out the requested object. Application developers often use the HEAD method for debugging.
+
+### HTTP Response Message
+
+![[attachments/general-http-reponse-format.png]]
+
+![[attachments/sample-http-response-method.png]]
+
+**Entity body** contains the requested object itself.
+**Conent-Length** : indicates the number of bytes in the object being sent
+
+**Little experiment**
+```
+telnet gaia.cs.umass.edu 80
+GET /kurose_ross/interactive/index.php HTTP/1.1
+Host: gaia.cs.umass.edu
+```
+
+## 2.2.4 User-Server Interaction: Cookies
+
+
