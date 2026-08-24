@@ -184,6 +184,8 @@ These requests for objects can be back-to-back, without waiting for replies to p
 
 >[!note] The default mode of HTTP uses persistent connections with pipelining. 
 
+>HTTP is an **application layer protocol.**
+
 ## 2.2.3 HTTP Message Format
 
 ### HTTP Request Message
@@ -218,4 +220,26 @@ Host: gaia.cs.umass.edu
 
 ## 2.2.4 User-Server Interaction: Cookies
 
+HTTP is a stateless protocol but often times you would like to identify users on your website, either because you want to restrict user access or because you want to serve content as a function of user identity. (amazon or flipkart account).
+
+For these purposes HTTP uses cookies.  A cookie technology has four components:
+
+ 1. a cookie header line in the HTTP response message
+ 2. a cookie header line in the HTTP request message
+ 3. a cookie file kept on the user’s end system and managed by the user’s browser
+ 4. a back-end database at the Web site. 
+
+![[http-cookies.png]]
+
+## 2.2.5 Web Caching
+
+A **Web cache**—also called a **proxy server**—is a network entity that satisfies HTTP requests on the behalf of an origin Web server. The Web cache has its own disk storage and keeps copies of recently requested objects in this storage.
+
+A browser can be configured so each request first goes to the Web cache. If web cache doesn't have that resource then it opens a TCP connection to the original server and request for the resource. It then stores a copy of this resource on itself and send it to the client on the existing TCP connection between itself and client.
+
+![[proxy-server.png]]
+
+Advantages of **web caches**:
+1. can substantially reduce the response time for a client request
+2. can substantially reduce traffic on an institution's access link to the internet. By reducing traffic, the institution does not have to upgrade bandwidth as quickly, thereby reducing costs.
 
