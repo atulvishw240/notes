@@ -229,7 +229,7 @@ For these purposes HTTP uses cookies.  A cookie technology has four components:
  3. a cookie file kept on the user’s end system and managed by the user’s browser
  4. a back-end database at the Web site. 
 
-![[http-cookies.png]]
+![[attachments/http-cookies.png]]
 
 ## 2.2.5 Web Caching
 
@@ -237,7 +237,7 @@ A **Web cache**—also called a **proxy server**—is a network entity that sati
 
 A browser can be configured so each request first goes to the Web cache. If web cache doesn't have that resource then it opens a TCP connection to the original server and request for the resource. It then stores a copy of this resource on itself and send it to the client on the existing TCP connection between itself and client.
 
-![[proxy-server.png]]
+![[attachments/proxy-server.png]]
 
 Advantages of **web caches**:
 1. can substantially reduce the response time for a client request
