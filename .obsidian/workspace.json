@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b1f8ae7120120181",
+        "id": "dddd1975cd68a7a2",
         "type": "tabs",
         "children": [
           {
-            "id": "602b3e494b52895d",
+            "id": "9a42d2dba3f9d933",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z/Problems.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Problems"
+              "title": "New tab"
             }
           }
         ]
@@ -80,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5,
-    "collapsed": true
+    "width": 221.5
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -224,8 +219,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "602b3e494b52895d",
+  "active": "9a42d2dba3f9d933",
   "lastOpenFiles": [
+    "z/Problems.md",
     "z/DSA.md",
     "notes.md",
     "attachments/proxy-server.png",
@@ -253,7 +249,6 @@
     "z/More on State.md",
     "Lecture 2 - Syntax and Semantics - Expressions, Functions.md",
     "z/Introduction to State.md",
-    "z/Problems.md",
     "Lecture 1 - Intro to OCaml.md",
     "z/function bindings.md",
     "Unit 1 - OCaml Functions, Tuples, Lists and More.md",
