@@ -11,10 +11,14 @@
             "id": "9a42d2dba3f9d933",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "z/application layer.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "application layer"
             }
           }
         ]
@@ -76,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -221,18 +226,19 @@
   },
   "active": "9a42d2dba3f9d933",
   "lastOpenFiles": [
+    "internet-mail-system.png",
+    "z/application layer.md",
+    "z/computer networking.md",
+    "notes.md",
     "z/Problems.md",
     "z/DSA.md",
-    "notes.md",
     "attachments/proxy-server.png",
     "attachments/http-cookies.png",
-    "z/application layer.md",
     "attachments/general-http-reponse-format.png",
     "attachments/sample-http-response-method.png",
     "chatgpt programming tips, wisdom, etc.md",
     "attachments/general-format-of-http-req-message.png",
     "attachments/an-http-request-message.png",
-    "z/computer networking.md",
     "Reading List - Self.md",
     "z/the odin project.md",
     "z/react.md",
@@ -254,7 +260,6 @@
     "Unit 1 - OCaml Functions, Tuples, Lists and More.md",
     "Pasted image 20260527111226.png",
     "js-runtime.png",
-    "Pasted image 20260527112255.png",
-    "Pasted image 20260527105656.png"
+    "Pasted image 20260527112255.png"
   ]
 }

@@ -266,4 +266,9 @@ Internet Mail system has three major components:
 - mail servers
 - Simple Mail Transfer Protocol (SMTP)
 
+Mail servers form the core of the email infrastructure. Each recipient has a **mailbox** located in one of the mail servers. SMTP uses TCP. SMTP is the principal application layer protocol for Internet electronic mail.
+
+![[internet-mail-system.png]]
+
+### 2.3.1 SMTP
 
