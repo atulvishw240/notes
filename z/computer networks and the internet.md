@@ -1,4 +1,3 @@
-
 # 1.1 What is the Internet
 
 Internet can be described as : 

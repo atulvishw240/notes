@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/Setting Up A React Environment.md",
+                "file": "z/computer networks and the internet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Setting Up A React Environment"
+              "title": "computer networks and the internet"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -225,13 +226,14 @@
   },
   "active": "9a42d2dba3f9d933",
   "lastOpenFiles": [
+    "z/computer networking.md",
+    "notes.md",
+    "z/Setting Up A React Environment.md",
     "z/react.md",
     "z/Introduction to React.md",
     "z/the odin project.md",
-    "notes.md",
     "z/application layer.md",
     "internet-mail-system.png",
-    "z/computer networking.md",
     "z/Problems.md",
     "z/DSA.md",
     "attachments/proxy-server.png",
@@ -245,7 +247,6 @@
     "z/Passing Data Between Components.md",
     "z/What is JSX.md",
     "z/React Components.md",
-    "z/Setting Up A React Environment.md",
     "z/inversion of control.md",
     "z/computer networks and the internet.md",
     "z/ocaml.md",
