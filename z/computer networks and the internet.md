@@ -1,8 +1,7 @@
 # 1.1 What is the Internet
 
-Internet can be described as : 
-- the basic hardware and software components that make up the internet
-- a networking infrastructure that provides service to distributed applications
+- **nuts and bolts description** - basic hardware and software components that make up the internet
+- **a services description** - networking infrastructure that provides services to distributed applications
 
 ## 1.1.1 A Nuts-and-Bolts Description
 
@@ -20,7 +19,6 @@ Internet can be described as :
 - These are called **distributed applications** because they involve multiple end systems that exchange data with each other
 - Because applications run on end systems, you are going to need to write programs that run on the end systems. You might, for example, write your programs in Java, C, or Python.
 - End systems attached to the Internet provide a **socket interface** that specifies how a program running on one end system asks the Internet infrastructure to deliver data to a specific destination program running on another end system. 
-- This Internet socket interface is a set of rules that the sending program must follow so that the Internet can deliver the data to the destination program.
 
 ## 1.1.3 What is a protocol
 
@@ -207,45 +205,6 @@ Each circuit gets 1/4th transmission rate of the original link. If each link bet
 - Proponents of packet switching argue that
 	- (1) it offers better sharing of transmission capacity (1 Mbps link) (35 users) than circuit switching (10 users) and 
 	- (2) it is simpler, more efficient, and less costly to implement than circuit switching
-
-## 1.3.3 A Network of Networks
-
-- end systems connect to the internet via ISP
-- an ISP can be a cable or telco but also a university or company
-
->ISPs must be interconnected so that all end systems can send packets to each other
-
-One naive approach would be to have each access ISP directly connect with every other access ISP all over the world. (costly for access ISPs)
-
-**Network Structure I**
-Interconnect all of the access ISPs with a *single global transit* ISP (imaginary), which has at least one router near each of the hundreds of thousands of access ISPs. Global transit ISP (**provider**) will charge access ISP (**customer**) based on amount of traffic it exchanges with itself.
-
-**Network Structure 2**
-*multiple* global transit ISPs and they must interconnect. Although some ISPs do have impressive global coverage and do directly connect with many access ISPs, no ISP has presence in each and every city in the world.
-
-**Network Structure 3**
-To further complicate matters, in some regions there may be a **larger regional ISP** (possibly spanning an entire country) to which the smaller **regional ISPs** in that region connect. This larger regional ISP then connects to a **tier-1 ISP**.
-
-**Network Structure 4**
-To build a network that more closely resembles today’s Internet, we must add points of presence (PoPs), multi-homing, peering, and Internet exchange points (IXPs) to the hierarchical Network Structure 3.
-
-A **PoP** is simply a group of one or more routers (at the same location) in the provider’s network where customer ISPs can connect into the provider ISP. For a customer network to connect to a provider’s PoP, it can lease a high-speed link from a third-party telecommunications provider to directly connect one of its routers to a router at the PoP.
-
-Any ISP (except for iter-1 ISPs) may choose to **multi-home**, that is, to connect to two or more provider ISPs. When an ISP multi-homes, it can continue to send and receive packets into the Internet even if one of its providers has a failure.
-
-The amount that a customer ISP pays a provider ISP reflects the amount of traffic it exchanges with the provider. To reduce these costs, a pair of nearby ISPs at the same level of the hierarchy can **peer**, that is, they can directly connect their networks together so that all the traffic between them passes over the direct connection rather than through upstream intermediaries. When two ISPs peer, it is typically settlement-free, that is, neither ISP pays the other.
-
-Along these same lines, a third-party company can create an **Internet Exchange Point (IXP)**,
-which is a meeting point where multiple ISPs can peer together. An IXP is typically in a stand-alone building with its own switches.
-
-**Network Structure 5**
-add **content-provider networks** to Network Structure 4. Content provider network example: Google.
-
-Google private network attempts to “bypass” the upper tiers of the Internet by peering (settlement free) with lower-tier ISPs, either by directly connecting with them or by connecting with them at IXPs.
-
-However, because many access ISPs can still only be reached by transiting through tier-1 networks, the Google network also connects to tier-1 ISPs, and pays those ISPs for the traffic it exchanges with them. By creating its own network, a content provider not only reduces its payments to upper-tier ISPs, but also has greater control of how its services are ultimately delivered to end users.
-
-![[interconnection-of-isps.png]]
 
 # 1.4 Delay, Loss, and Throughput in Packet-Switched Networks
 
