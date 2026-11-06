@@ -11,10 +11,14 @@
             "id": "6e4b81fad7ae3c26",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "z/Array.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Array"
             }
           }
         ]
@@ -76,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -221,19 +226,20 @@
   },
   "active": "6e4b81fad7ae3c26",
   "lastOpenFiles": [
+    "z/DSA.md",
+    "z/Problems.md",
+    "z/Array.md",
+    "notes.md",
     "attachments/amortized-time-complexity.png",
     "z/computer networks and the internet.md",
     "attachments/interconnection-of-isps.png",
     "z/computer networking.md",
-    "notes.md",
     "z/Setting Up A React Environment.md",
     "z/react.md",
     "z/Introduction to React.md",
     "z/the odin project.md",
     "z/application layer.md",
     "internet-mail-system.png",
-    "z/Problems.md",
-    "z/DSA.md",
     "attachments/proxy-server.png",
     "attachments/http-cookies.png",
     "attachments/general-http-reponse-format.png",
@@ -255,7 +261,6 @@
     "Lecture 1 - Intro to OCaml.md",
     "z/function bindings.md",
     "Unit 1 - OCaml Functions, Tuples, Lists and More.md",
-    "Pasted image 20260527111226.png",
-    "js-runtime.png"
+    "Pasted image 20260527111226.png"
   ]
 }
