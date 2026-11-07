@@ -7,7 +7,7 @@ For example, in the Web application there are two distinct programs that communi
 ## 2.1.1 Network Application Architectures
 
 - two predominant architectural paradigms used in modern network applications:
-	- [[client server architecture]]
+	- client server architecture
 	- peer-to-peer ([[z/P2P]]) architecture
 
 ## 2.1.2 Processes Communicating
@@ -67,9 +67,7 @@ some specified rate. (r bits/sec)
 
 Such a guaranteed throughput service would appeal to many applications. For example internet telephony application that encodes voice at 32 kbps. 
 
-Applications that have throughput requirements are said to be **bandwidth-sensitive applications** 
-**Elastic applications** can make use of as much, or as little, throughput as happens to
-be available. Electronic mail, file transfer, and Web transfers are all elastic applications.
+Applications that have throughput requirements are said to be **bandwidth-sensitive applications** . **Elastic applications** can make use of as much, or as little, throughput as happens to be available. Electronic mail, file transfer, and Web transfers are all elastic applications.
 
 ### Timing
 

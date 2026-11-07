@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sorting.md",
+                "file": "z/application layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sorting"
+              "title": "application layer"
             }
           }
         ]
@@ -226,12 +226,12 @@
   },
   "active": "6e4b81fad7ae3c26",
   "lastOpenFiles": [
-    "z/DSA.md",
-    "Sorting.md",
+    "z/computer networking.md",
     "notes.md",
+    "Sorting.md",
+    "z/DSA.md",
     "z/application layer.md",
     "client server architecture.md",
-    "z/computer networking.md",
     "z/computer networks and the internet.md",
     "z/Stack.md",
     "z/Array.md",
