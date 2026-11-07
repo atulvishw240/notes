@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/application layer.md",
+                "file": "Sorting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "application layer"
+              "title": "Sorting"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -225,12 +226,13 @@
   },
   "active": "6e4b81fad7ae3c26",
   "lastOpenFiles": [
-    "client server architecture.md",
+    "z/DSA.md",
+    "Sorting.md",
+    "notes.md",
     "z/application layer.md",
+    "client server architecture.md",
     "z/computer networking.md",
     "z/computer networks and the internet.md",
-    "notes.md",
-    "z/DSA.md",
     "z/Stack.md",
     "z/Array.md",
     "z/Problems.md",
@@ -259,7 +261,6 @@
     "z/More on State.md",
     "Lecture 2 - Syntax and Semantics - Expressions, Functions.md",
     "z/Introduction to State.md",
-    "Lecture 1 - Intro to OCaml.md",
     "Pasted image 20260527111226.png"
   ]
 }

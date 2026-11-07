@@ -4,7 +4,9 @@
 - [[Stack]]
 - [[Linked List]]
 -  [[z/Queue]]
+- [[Sorting]]
 - 
+- ]
 
 ---
 
