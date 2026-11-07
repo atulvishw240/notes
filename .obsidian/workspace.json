@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/Stack.md",
+                "file": "z/application layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack"
+              "title": "application layer"
             }
           }
         ]
@@ -226,19 +226,21 @@
   },
   "active": "6e4b81fad7ae3c26",
   "lastOpenFiles": [
-    "z/DSA.md",
+    "client server architecture.md",
+    "z/application layer.md",
+    "z/computer networking.md",
+    "z/computer networks and the internet.md",
     "notes.md",
+    "z/DSA.md",
+    "z/Stack.md",
     "z/Array.md",
     "z/Problems.md",
     "attachments/amortized-time-complexity.png",
-    "z/computer networks and the internet.md",
     "attachments/interconnection-of-isps.png",
-    "z/computer networking.md",
     "z/Setting Up A React Environment.md",
     "z/react.md",
     "z/Introduction to React.md",
     "z/the odin project.md",
-    "z/application layer.md",
     "internet-mail-system.png",
     "attachments/proxy-server.png",
     "attachments/http-cookies.png",
@@ -259,8 +261,6 @@
     "Lecture 2 - Syntax and Semantics - Expressions, Functions.md",
     "z/Introduction to State.md",
     "Lecture 1 - Intro to OCaml.md",
-    "z/function bindings.md",
-    "Unit 1 - OCaml Functions, Tuples, Lists and More.md",
     "Pasted image 20260527111226.png"
   ]
 }

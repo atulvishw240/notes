@@ -4,19 +4,16 @@ At the core of network application development is writing programs that run on d
 
 For example, in the Web application there are two distinct programs that communicate with each other: the browser program running in the user’s host  and the Web server program running in the Web server's host.
 
-You can't write application software for network-core devices, such as routers or link-layer switches because these devices they don't function at the network layer.
-
 ## 2.1.1 Network Application Architectures
 
-- Before coding, you should have a broad architectural plan for your application
-- network architecture (5 layer) is different from **application architecture**
 - two predominant architectural paradigms used in modern network applications:
 	- [[client server architecture]]
 	- peer-to-peer ([[z/P2P]]) architecture
 
 ## 2.1.2 Processes Communicating
 
-Before building your network application, you also need a basic understanding of how the programs (**processes** in OS terminology), running in multiple end systems, communicate with each other.
+>[!question] What is a process?
+>A process is a running program on an end system.
 
 Processes on two different end systems communicate with each other by exchanging **messages** across the computer network. 
 
