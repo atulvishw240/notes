@@ -9,5 +9,7 @@ n^2 = 4^2 = 16
 | Algorithms              | Big-O Time |
 | ----------------------- | ---------- |
 | Insertion Sort (stable) | O(n^2)     |
+| Mergesort (stable)      | n logn     |
 
-##
+## Merge Sort
+
