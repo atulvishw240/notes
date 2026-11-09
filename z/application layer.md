@@ -129,10 +129,9 @@ The Web’s application-layer protocol, HTTP, defines the format and sequence of
 
 - web
 - electronic mail
-- directory service
+- directory service (dns)
 - video streaming
 - p2p applications
-
 
 # 2.2 The Web and HTTP
 
