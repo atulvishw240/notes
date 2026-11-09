@@ -6,10 +6,12 @@ The best case time for Insertion sort is O(n). Example: 1,2,3,4. We just have to
 Worst case: 4,3,2,1 Comparisons 1 + 2 + 3 + 4 (c.n^2 = 1/2 n^2)
 n^2 = 4^2 = 16
 
-| Algorithms              | Big-O Time |
-| ----------------------- | ---------- |
-| Insertion Sort (stable) | O(n^2)     |
-| Mergesort (stable)      | n logn     |
+| Algorithms              | Big-O Time               |
+| ----------------------- | ------------------------ |
+| Insertion Sort (stable) | O(n^2)                   |
+| Mergesort (stable)      | n logn                   |
+| Quicksort (unstable)    | n^2 (if array is sorted) |
 
-## Merge Sort
+>Quick sort average time complexity is **nlogn**.
+
 

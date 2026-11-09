@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/Problems.md",
+                "file": "Sorting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problems"
+              "title": "Sorting"
             }
           }
         ]
@@ -227,6 +227,7 @@
   "active": "6e4b81fad7ae3c26",
   "lastOpenFiles": [
     "z/DSA.md",
+    "z/Problems.md",
     "notes.md",
     "z/application layer.md",
     "z/computer networking.md",
@@ -235,7 +236,6 @@
     "z/computer networks and the internet.md",
     "z/Stack.md",
     "z/Array.md",
-    "z/Problems.md",
     "attachments/amortized-time-complexity.png",
     "attachments/interconnection-of-isps.png",
     "z/Setting Up A React Environment.md",
