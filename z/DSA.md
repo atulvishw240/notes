@@ -5,8 +5,7 @@
 - [[Linked List]]
 -  [[z/Queue]]
 - [[Sorting]]
-- 
-- ]
+- [[Tree]]
 
 ---
 
