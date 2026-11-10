@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sorting.md",
+                "file": "notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sorting"
+              "title": "notes"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5,
-    "collapsed": true
+    "width": 221.5
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -226,12 +225,12 @@
   },
   "active": "6e4b81fad7ae3c26",
   "lastOpenFiles": [
+    "Sorting.md",
     "z/DSA.md",
     "z/Problems.md",
     "notes.md",
     "z/application layer.md",
     "z/computer networking.md",
-    "Sorting.md",
     "client server architecture.md",
     "z/computer networks and the internet.md",
     "z/Stack.md",
