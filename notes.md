@@ -16,4 +16,5 @@
 - [[tech talks]]
 - [[z/programming languages|programming languages]]
 - [[chatgpt programming tips, wisdom, etc]]
+- [[typescript]]
 - 
