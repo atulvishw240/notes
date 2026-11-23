@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cc7d5d4fe1989e42",
+        "id": "5422c8689a320339",
         "type": "tabs",
         "children": [
           {
-            "id": "6e4b81fad7ae3c26",
+            "id": "9ea198070d9f2f68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z/Problems.md",
+                "file": "z/application layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problems"
+              "title": "application layer"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c76b757699bdf3d",
@@ -223,20 +224,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e4b81fad7ae3c26",
+  "active": "9ea198070d9f2f68",
   "lastOpenFiles": [
+    "z/computer networking.md",
+    "z/computer networks and the internet.md",
+    "notes.md",
+    "Lecture 2 - Syntax and Semantics - Expressions, Functions.md",
+    "Lecture 1 - Intro to OCaml.md",
+    "z/Problems.md",
     "z/DSA.md",
     "z/Array.md",
-    "notes.md",
     "Chapter - 5 Unions, Literals and Narrowing.md",
     "typescript.md",
     "Tree.md",
     "Sorting.md",
-    "z/Problems.md",
     "z/application layer.md",
-    "z/computer networking.md",
     "client server architecture.md",
-    "z/computer networks and the internet.md",
     "z/Stack.md",
     "attachments/amortized-time-complexity.png",
     "attachments/interconnection-of-isps.png",
@@ -258,8 +261,6 @@
     "z/React Components.md",
     "z/inversion of control.md",
     "z/ocaml.md",
-    "z/lists.md",
-    "z/programming languages.md",
     "Pasted image 20260527111226.png"
   ]
 }
